@@ -1,0 +1,291 @@
+===============================
+Document ID: PM-001
+Category: Product Management
+Title: Product Roadmap FY2026-2027
+
+AcmeTech Solutions Product Roadmap
+FY2026 – FY2027
+Version: 3.1
+Owner: David Okonkwo, VP of Product
+
+Executive Summary
+This roadmap outlines AcmeTech's product strategy and planned feature investments for the next 18 months. The roadmap is organized by strategic theme and reflects the product team's translation of company OKRs, user research findings, and competitive analysis into a prioritized set of product initiatives. The roadmap is reviewed and refreshed quarterly in alignment with the OKR planning cycle.
+
+Strategic Themes
+AcmeTech's product roadmap is organized around three strategic themes that reflect our North Star vision of becoming the operating system for enterprise knowledge work. Theme 1 – Enterprise Readiness: Investments in security, compliance, user management, and administrative controls that enable AcmeTech to serve the needs of large enterprise customers at scale. Theme 2 – Intelligence and Automation: Investments in AI-powered features that help users work faster and surface insights from their data without manual effort. Theme 3 – Platform Extensibility: Investments in the API platform, integration ecosystem, and developer tools that enable customers and partners to build on top of AcmeTech.
+
+FY2026 H1 Initiatives (Q1-Q2)
+Enterprise Readiness: Advanced role-based access control with field-level permissions, SOC 2 Type II audit completion and report distribution, SCIM-based user provisioning for enterprise identity providers. Intelligence and Automation: AI-powered document summarization and smart search, automated workflow triggers based on data change events, intelligent anomaly detection for key business metrics. Platform Extensibility: Public API v3 launch with expanded endpoints and improved developer documentation, native Salesforce and HubSpot integrations, webhook improvements with enhanced delivery reliability.
+
+FY2026 H2 Initiatives (Q3-Q4)
+Enterprise Readiness: Data residency controls for EU and APAC regions, advanced audit log analytics, enterprise reporting suite with scheduled report delivery. Intelligence and Automation: Predictive analytics module for trend forecasting, AI-assisted data quality recommendations, natural language query interface for analytics. Platform Extensibility: Partner integration marketplace launch, mobile SDK for iOS and Android, expanded Zapier and Make integration catalog.
+
+FY2027 Horizon Planning
+Items on the FY2027 horizon include real-time collaboration features, an industry-specific vertical product module for financial services, expanded localization for Japanese and Korean markets, and a self-hosted deployment option for customers with strict data sovereignty requirements. These items are subject to further research and prioritization review before being committed to the roadmap.
+
+Roadmap Governance
+The product roadmap is maintained by the Product team in the internal roadmap management tool. All changes to committed roadmap items require VP of Product approval. Quarterly roadmap reviews are conducted with the executive leadership team and results are communicated to stakeholders through the monthly product newsletter.
+===============================
+Document ID: PM-002
+Category: Product Management
+Title: OKR Planning Framework
+
+AcmeTech Solutions Product OKR Planning Framework
+Cycle: FY2026
+Owner: Product Management Team
+
+Overview
+AcmeTech uses Objectives and Key Results (OKRs) as its primary goal-setting framework for aligning the product organization around measurable outcomes. This document describes the OKR planning process, the structure of well-formed objectives and key results, and the cadence for tracking and reviewing OKR progress.
+
+OKR Structure
+An OKR consists of one qualitative Objective that describes a meaningful, ambitious goal, paired with two to five quantitative Key Results that measure whether the objective has been achieved. Objectives should be inspiring and directional. Key Results must be specific, measurable, and time-bound. Key Results are not activity metrics (e.g., "complete the feature") but outcome metrics (e.g., "increase feature adoption to 65% of active users within 90 days of launch").
+
+Planning Cadence
+AcmeTech's OKR cycle is annual at the company level and quarterly at the team level. Company-level OKRs are set by the executive leadership team in January for the full fiscal year. Product team-level OKRs are set quarterly, aligned to and in support of the company-level objectives. Individual contributors set their personal OKRs in alignment with their team's quarterly OKRs. OKR drafts are reviewed in a two-week alignment period before being finalized.
+
+FY2026 Company-Level Product OKRs
+Objective 1: Become the enterprise knowledge platform of choice. Key Results: Achieve a net revenue retention rate of 115%; grow enterprise customer count (ACV > $100K) by 40%; achieve a G2 crowd rating of 4.7 or higher by Q4 2026.
+
+Objective 2: Deliver AI-powered experiences that create measurable user value. Key Results: Launch and achieve 50% adoption of the AI document summarization feature among weekly active users by Q3; reduce average time-on-task for the three most common workflows by 30% as measured by in-product analytics; achieve an NPS of 60 or higher among users of AI-powered features.
+
+Objective 3: Build a platform that attracts a thriving developer and partner ecosystem. Key Results: Achieve 500 registered developers in the AcmeTech developer program by Q4; launch 10 certified partner integrations in the integration marketplace; achieve a developer documentation satisfaction score of 4.5 or higher.
+
+Scoring and Review
+OKR scores are assessed at the end of each quarter using a 0.0 to 1.0 scale. A score of 0.7 is considered a successful outcome; consistently scoring 1.0 may indicate the objective was not sufficiently ambitious. OKR retrospectives are conducted at the end of each quarter to assess performance, identify blockers, and inform the next cycle's planning. Results are shared transparently across the product organization.
+===============================
+Document ID: PM-003
+Category: Product Management
+Title: Feature Prioritization Framework
+
+AcmeTech Solutions Feature Prioritization Framework
+Version: 2.0
+Owner: Product Management Team
+
+Overview
+This document describes AcmeTech's framework for prioritizing features and product initiatives. A consistent, transparent prioritization process enables the product team to make informed trade-offs, communicate decisions to stakeholders with clarity, and ensure that development investment is aligned with strategic priorities and customer value.
+
+Prioritization Model
+AcmeTech uses a weighted scoring model for feature prioritization. Features are scored across four dimensions, each weighted by strategic importance. Customer Value (30%): How significantly does this feature improve the experience or outcomes for our target customers? Strategic Alignment (25%): How directly does this feature advance our current OKRs and product strategy? Revenue Impact (25%): What is the estimated impact on new ARR acquisition, expansion revenue, or churn prevention? Effort and Confidence (20%): What is the estimated development effort and how confident are we in the scope estimate?
+
+Scoring Process
+Features are scored on a 1-5 scale in each dimension by the responsible product manager in collaboration with the engineering team and relevant stakeholders. Scores are reviewed in a monthly prioritization meeting attended by the product leadership team. Features with a combined weighted score above 4.0 are candidates for the near-term roadmap. Features scoring between 3.0 and 4.0 are placed in the backlog for continued evaluation. Features scoring below 3.0 are deprioritized and closed with documented rationale.
+
+Customer Discovery as an Input
+Feature prioritization must be informed by customer discovery. Product managers are expected to conduct at minimum five customer interviews per quarter focused on validating the value assumptions behind top-ranked features. User research findings, NPS verbatims, and support ticket themes must be reviewed as inputs to the scoring process. Features that rank highly on the scoring model but lack customer discovery evidence are marked as requiring validation before being committed to the roadmap.
+
+Stakeholder Communication
+Prioritization decisions and their rationale must be communicated to key internal stakeholders, including Sales, Customer Success, and Engineering, within two weeks of each monthly prioritization meeting. The product team publishes a quarterly prioritization summary in the internal knowledge base. Stakeholders may submit feature requests or business cases for consideration through the product request intake form, which is reviewed at each monthly prioritization session.
+
+Exceptions and Escalations
+Features that represent contractual commitments to specific customers, regulatory compliance requirements, or critical security fixes may bypass the standard scoring process and be escalated directly to the roadmap with VP of Product approval. All such exceptions must be documented with the reason for bypass in the roadmap tool.
+===============================
+Document ID: PM-004
+Category: Product Management
+Title: North Star Metrics Framework
+
+AcmeTech Solutions North Star Metrics Framework
+Version: 1.3
+Owner: Product Management and Data Teams
+
+Overview
+The North Star Metric (NSM) is the single most important metric that captures the core value AcmeTech delivers to its customers. This document defines AcmeTech's North Star Metric, the supporting input metrics that drive it, and the process for tracking and communicating these metrics across the organization.
+
+AcmeTech's North Star Metric
+AcmeTech's North Star Metric is: Weekly Active Teams. A "team" is defined as an organization that has had at least three distinct users interact with core platform features (document creation, search, or collaboration) within a given seven-day period. This metric reflects the breadth of adoption within customer organizations and correlates strongly with revenue retention, expansion, and long-term customer health.
+
+Why This Metric
+The product team evaluated several candidate North Star metrics during the FY2025 NSM review, including daily active users, monthly active users, and feature activation rate. Weekly Active Teams was selected because it measures cross-user adoption, not just individual engagement, which more directly reflects value delivery to the customer organization rather than to individual power users. Correlation analysis confirmed that organizations above the three-user-per-week threshold have a 93% one-year retention rate compared to 61% for those below it.
+
+Input Metrics
+The North Star Metric is driven by four input metrics that the product team monitors and invests in improving. Activation Rate: The percentage of invited users who complete the onboarding checklist and perform their first meaningful action within seven days of account creation. Engagement Depth: The average number of core feature interactions per active user per week. Breadth of Adoption: The average number of users per organization who engage with the platform in a given week. Retention: The percentage of previously active teams that remain active in the current week.
+
+Metric Review Cadence
+The NSM and its input metrics are reviewed weekly at the product team's metric review meeting. The VP of Product presents a monthly NSM update to the executive leadership team. Quarterly metric reviews include cohort analysis to understand how metric trends differ across customer segments, plan tiers, and acquisition cohorts. Metric definitions and calculation methodology are documented in the analytics team's data dictionary and reviewed annually.
+
+Using Metrics to Drive Decisions
+All new product features and experiments must define their expected impact on one or more of the input metrics. Post-launch reviews must assess whether the expected metric impact was achieved. Features that do not move the metrics they targeted are flagged for further investigation before additional investment is approved. The product team uses a metric decision tree to guide whether to iterate, persist, or sunset features based on observed metric outcomes.
+===============================
+Document ID: PM-005
+Category: Product Management
+Title: User Research Findings Report
+
+AcmeTech Solutions User Research Findings Report
+Q1 2026 Enterprise Customer Study
+Owner: Olivia Grant, Product Manager – User Research
+
+Executive Summary
+This report presents findings from AcmeTech's Q1 2026 enterprise customer research study. The study was conducted to understand the primary pain points experienced by enterprise customers in their first 90 days on the AcmeTech platform, their expectations for advanced administrative controls, and their willingness to adopt AI-powered features. Twenty-four in-depth interviews were conducted with users and administrators across eight enterprise customer organizations.
+
+Research Methodology
+Interviews were conducted via video call and lasted approximately 45 minutes each. Participants were recruited through the Customer Success team and represented a cross-section of roles including administrators, power users, and occasional users. Interviews were recorded with participant consent and analyzed using thematic analysis. Quantitative validation of qualitative themes was conducted through a follow-up survey distributed to 180 enterprise customers.
+
+Key Finding 1: Onboarding Complexity is the Primary Retention Risk
+67% of interviewed users reported feeling overwhelmed during their first two weeks on the platform. The most frequently cited pain point was the lack of role-specific onboarding flows; current onboarding presents all features regardless of the user's role, creating cognitive overload. Users who received a dedicated onboarding session with a Customer Success Manager reported significantly higher confidence and feature adoption at 90 days. Recommendation: Invest in role-based onboarding tracks and evaluate automation of the initial CSM touchpoint through guided in-product onboarding.
+
+Key Finding 2: Administrators Require Stronger Access Controls
+91% of interviewed administrators indicated that the current role-based access control model is insufficient for their organization's security and compliance requirements. Administrators specifically requested field-level permissions and the ability to restrict user access to specific customer segments within the platform. This finding directly supports the Enterprise Readiness roadmap theme and is aligned with feedback tracked through the product request intake form over the past two quarters.
+
+Key Finding 3: AI Feature Adoption Requires Trust Building
+While enthusiasm for AI-powered features is high, with 78% of participants expressing interest in the AI document summarization concept, adoption willingness is contingent on transparency and control. Participants expressed concern about AI-generated content being surfaced without clear attribution or the ability to review the source material. Recommendation: Design AI features with explicit source citation, confidence indicators, and the ability for users to inspect the data driving AI outputs.
+
+Key Finding 4: Collaboration Features Drive Team Adoption
+Teams that use AcmeTech's collaboration features, including shared workspaces and comment threads, had a 40% higher breadth of adoption score at 90 days than teams that used the platform primarily as an individual tool. Recommendation: Prioritize collaboration feature visibility in the onboarding flow and add social prompts that encourage users to invite colleagues to engage with their work.
+===============================
+Document ID: PM-006
+Category: Product Management
+Title: Experimentation Guidelines
+
+AcmeTech Solutions Product Experimentation Guidelines
+Version: 1.5
+Owner: Product Management and Data Teams
+
+Overview
+AcmeTech uses controlled experiments (A/B tests) as a primary mechanism for making evidence-based product decisions. These guidelines establish the standards for designing, running, and interpreting experiments at AcmeTech. All product experiments must comply with these guidelines before being launched.
+
+When to Run an Experiment
+Experiments are appropriate when the product team has a specific hypothesis about how a change will affect a measurable outcome, when the change is reversible, and when the expected effect size is detectable given available traffic volume. Experiments are not appropriate for changes that are self-evidently correct (e.g., fixing a broken feature), for changes affecting too small a user segment to reach statistical significance within a reasonable timeframe, or for changes to critical security or compliance features where rollout must be controlled for risk rather than measured for impact.
+
+Experiment Design Requirements
+Each experiment must be documented in the experiment management platform before launch. The documentation must include a hypothesis statement in the format "If we [change], then [metric] will [increase/decrease] by [magnitude] for [user segment] because [rationale]." Required fields also include the primary metric and secondary metrics to be measured, the randomization unit (user or organization), the target sample size calculated to achieve 80% statistical power at a 95% confidence level, the minimum detectable effect, and the expected experiment duration.
+
+Sample Size and Duration
+Product managers must use the AcmeTech experiment sizing calculator to determine the required sample size before launching any experiment. Experiments must run for at minimum one full business week to account for day-of-week variation in user behavior. Experiments should not be stopped early based on preliminary results, as this leads to inflated false positive rates. The minimum experiment duration is seven days regardless of how quickly the sample size target is reached.
+
+Analyzing and Interpreting Results
+Results are considered statistically significant at a p-value threshold of 0.05. Product managers should present both the primary metric result and the results for secondary metrics and guardrail metrics. A statistically significant positive result on the primary metric is not sufficient justification for shipping if a guardrail metric, such as session error rate or support contact rate, shows a statistically significant negative movement. Experiment results must be reviewed with the Data team before a ship or no-ship decision is finalized.
+
+Sharing Experiment Results
+All experiment results, including negative results and inconclusive results, must be documented in the experiment management platform. The product team publishes a quarterly experiment retrospective summarizing key learnings from the period. Experiment results that significantly influence product direction should be shared in the weekly product team meeting and included in the quarterly stakeholder update.
+===============================
+Document ID: PM-007
+Category: Product Management
+Title: Product Launch Checklist
+
+AcmeTech Solutions Product Launch Checklist
+Version: 2.0
+Owner: Product Management Team
+
+Overview
+This checklist ensures that all required activities are completed before a product feature or release is launched to customers. The checklist is organized into four phases: Pre-Launch, Launch Day, Post-Launch, and Retrospective. The product manager is responsible for coordinating completion of the checklist with all relevant stakeholders.
+
+Phase 1: Pre-Launch (T-4 Weeks to T-1 Week)
+
+Product Readiness
+- Feature is complete, tested, and accepted by the product manager against defined acceptance criteria.
+- All identified bugs are resolved or have documented rationale for deferral.
+- Feature flag is configured and tested in staging and production environments.
+- Experiment design is documented if launching as an A/B test.
+
+Documentation and Support Readiness
+- Help Center article is written, reviewed, and published in draft status.
+- Customer Support team has been briefed with a dedicated enablement session.
+- Customer Support FAQ is prepared for anticipated customer questions.
+- In-app tooltips and onboarding guidance for the feature are implemented.
+
+Go-to-Market Readiness
+- Sales and Customer Success enablement materials are ready, including feature overview, demo script, and anticipated objections.
+- Marketing launch content is drafted and reviewed: blog post, email, in-app notification, social posts.
+- Customer communication plan is approved by Marketing and Customer Success leadership.
+- Press or analyst communication is coordinated if the launch merits external visibility.
+
+Phase 2: Launch Day
+
+- Feature flag enabled for target user segment per launch plan.
+- Help Center article published from draft to live.
+- In-app launch notifications activated.
+- Customer email launched per the communication plan.
+- Monitoring dashboards reviewed for anomalies 30 minutes post-launch.
+- Slack launch announcement posted to #product-launches channel.
+
+Phase 3: Post-Launch (T+1 Week and T+30 Days)
+
+- T+1 Week: Initial metrics reviewed against experiment or launch success criteria. Customer Support ticket volume related to the feature reviewed.
+- T+30 Days: Full metric analysis conducted. Ship/iterate/revert decision documented.
+
+Phase 4: Retrospective (T+30 Days)
+
+- Launch retrospective meeting conducted with Product, Engineering, Marketing, and Support.
+- Retrospective findings documented and shared in the internal knowledge base.
+===============================
+Document ID: PM-008
+Category: Product Management
+Title: Competitive Analysis Report
+
+AcmeTech Solutions Competitive Analysis Report
+Q1 2026
+Owner: Marcus Johnson, Senior Product Manager
+
+Executive Summary
+This report provides an analysis of AcmeTech's competitive position in the enterprise knowledge management and workflow platform market as of Q1 2026. The analysis covers the four primary competitors identified through win/loss analysis and sales intelligence: Nexarion, PulseHQ, ClarifyAI, and WorkBridge. The report identifies AcmeTech's areas of differentiation, competitive gaps, and recommended strategic responses.
+
+Market Landscape
+The enterprise knowledge management market is growing at approximately 18% CAGR, driven by demand for AI-powered productivity tools and the increasing complexity of enterprise collaboration needs. The competitive landscape is intensifying as well-funded pure-play vendors enter the market alongside adjacent-category incumbents expanding their feature sets. AcmeTech competes primarily on depth of enterprise functionality, extensibility, and time-to-value for mid-market and enterprise customers.
+
+Competitor Profiles
+
+Nexarion: The current market share leader in the large enterprise segment. Strengths include deep ERP integration, a robust partner ecosystem, and strong brand recognition. Weaknesses include a complex implementation process, a 3-6 month time-to-value for most customers, and a user experience frequently cited as dated. Nexarion is investing aggressively in AI features but is hampered by technical debt in its core platform. AcmeTech advantage: Faster time-to-value and a significantly better user experience.
+
+PulseHQ: A fast-growing challenger focused on the mid-market. Strengths include a modern user experience, strong mobile app, and a freemium model that drives bottom-up adoption. Weaknesses include limited administrative controls, no enterprise compliance certifications, and a shallow API. AcmeTech advantage: Enterprise-grade security, compliance, and administrative controls. PulseHQ disadvantage: Cannot serve regulated industries or large enterprise requirements.
+
+ClarifyAI: An AI-native entrant that has gained significant traction in technical teams. Strengths include cutting-edge AI capabilities and a highly regarded developer experience. Weaknesses include limited non-technical user accessibility, nascent administrative features, and limited out-of-the-box integrations. AcmeTech advantage: Breadth of use case support and enterprise-grade administrative controls.
+
+WorkBridge: An incumbent office productivity suite that has expanded into knowledge management. Strengths include embedded integration with email and calendar workflows and a large installed base. Weaknesses include shallow knowledge management features compared to specialized vendors and slow product innovation cycle. AcmeTech advantage: Depth of knowledge management features and faster iteration pace.
+
+Strategic Recommendations
+Accelerate AI feature development to close the gap with ClarifyAI before their enterprise capabilities mature. Double down on time-to-value messaging in competitive selling situations against Nexarion. Develop a competitive displacement playbook targeting PulseHQ customers who are hitting its enterprise capability ceiling.
+===============================
+Document ID: PM-009
+Category: Product Management
+Title: Product Requirements Document - AI Search Feature
+
+AcmeTech Solutions Product Requirements Document
+Feature: Intelligent Search with AI Summarization
+Version: 1.2
+Owner: Sarah Mitchell, Product Manager
+
+Feature Overview
+The Intelligent Search with AI Summarization feature enhances AcmeTech's existing search functionality by adding AI-powered result summarization, natural language query support, and cross-document synthesis. This feature directly addresses user research finding 3 from the Q1 2026 Enterprise Customer Study and advances OKR Objective 2: Deliver AI-powered experiences that create measurable user value.
+
+Problem Statement
+Current AcmeTech search returns a list of document links ranked by keyword relevance. Users must manually open and review multiple documents to answer their questions, which is time-consuming and leads to inconsistent information retrieval quality. Power users who participated in Q1 user research reported spending an average of 22 minutes per search task when the answer required synthesizing information from more than one document.
+
+Target Users
+This feature targets AcmeTech Professional and Enterprise plan users who regularly use search as a primary workflow entry point. Priority segments are knowledge workers who search across large document repositories (>500 documents) and teams with shared knowledge bases maintained by multiple contributors.
+
+User Stories
+As a user, I want to type a question in natural language so that I can find the answer without knowing the exact document title or keywords. As a user, I want to see an AI-generated summary of the answer to my question so that I can quickly determine whether I need to review the source documents in detail. As a user, I want to see clear attribution showing which documents contributed to the AI summary so that I can verify the source and trust the accuracy of the result. As an administrator, I want to be able to restrict AI search to specific document collections so that users do not surface information from areas outside their access scope.
+
+Success Metrics
+Primary metric: Average time-to-answer for search tasks as measured by in-product session analytics (target: 40% reduction from baseline). Secondary metrics: Search session completion rate (users who click a result or copy content without refinement), AI summary satisfaction rating collected through in-product feedback, and feature adoption rate at 30 and 90 days post-launch.
+
+Constraints and Dependencies
+The AI summarization capability depends on the AcmeTech AI infrastructure layer currently being built by the Engineering team (ETA Q2 2026). The feature must not expose document content to users who do not have access permission to the source documents. Data residency constraints must be respected; AI processing must occur within the customer's configured data region.
+===============================
+Document ID: PM-010
+Category: Product Management
+Title: Stakeholder Communication Plan
+
+AcmeTech Solutions Product Stakeholder Communication Plan
+FY2026 Q3 Product Updates
+Owner: Product Management Team
+
+Overview
+This communication plan outlines how the Product team will keep internal stakeholders informed about product strategy, roadmap progress, feature launches, and key decisions during Q3 2026. A well-executed stakeholder communication plan builds organizational alignment, reduces duplicate questions, and enables cross-functional partners to plan effectively.
+
+Stakeholder Communication Channels and Cadence
+
+Weekly Product Update (Every Monday)
+Audience: Product team, Engineering, and direct management chain. Format: Async written update distributed via Slack in the #product-updates channel. Content: Launches completed in the prior week, launches planned for the coming week, blockers or decisions needed, key metric highlights from the prior week. Owner: Product Operations.
+
+Monthly Product Review (First Thursday of Each Month)
+Audience: Executive leadership team. Format: 60-minute in-person or video meeting. Content: Progress against OKRs, roadmap updates and changes, key customer insights, competitive intelligence highlights, and upcoming major milestones. Owner: VP of Product (David Okonkwo). Pre-read distributed 48 hours before the meeting.
+
+Quarterly Roadmap Update (End of Each Quarter)
+Audience: All AcmeTech employees. Format: Company all-hands presentation (30 minutes) followed by Q&A. Content: Product vision narrative, roadmap highlights for the upcoming quarter, reflection on the prior quarter's key launches and learnings, and feature preview for items coming later in the year. Owner: VP of Product. Accompanied by a written summary published in the internal wiki.
+
+Sales and Customer Success Enablement Update (Bi-Weekly)
+Audience: Sales, Customer Success, and Partnerships teams. Format: 30-minute video call with supporting enablement deck distributed in advance. Content: Upcoming feature launches relevant to customer conversations, competitive updates, and talking points for common customer questions about the roadmap. Owner: Product Marketing Manager in partnership with Product.
+
+Customer Communication
+AcmeTech communicates significant product updates to customers through the following channels: monthly product newsletter distributed to all organization administrators; in-app announcements for features that affect the user experience; and dedicated communications to affected customers for any changes that require action or impact existing workflows. All customer communications are reviewed by Marketing and Customer Success leadership before distribution.
+===============================

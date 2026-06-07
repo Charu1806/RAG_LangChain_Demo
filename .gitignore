@@ -1,0 +1,25 @@
+# Virtual environment
+venv/
+
+# ChromaDB vector store (rebuilt from source files)
+vector_db/
+
+# Pickle cache files (rebuilt each run)
+*.pkl
+
+# Exported chart images and HTML
+*.png
+*.html
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# macOS
+.DS_Store
+
+# API keys — never commit
+.env
+*.env

@@ -1,0 +1,232 @@
+================================================================
+MASTER PROMPT: AcmeTech Solutions Synthetic Knowledge Base
+================================================================
+
+GENERATION PROMPT
+================================================================
+
+Create a synthetic company knowledge base for a fictional technology company called "AcmeTech Solutions".
+
+Requirements:
+
+1. Generate realistic enterprise documents.
+2. Each document should be 300-500 words.
+3. Use professional corporate language.
+4. Include enough unique terminology so that embedding models can clearly distinguish document categories.
+5. Create data suitable for a RAG (Retrieval Augmented Generation) demo.
+6. Ensure no real people or companies are used.
+7. Output each document separately with a title.
+
+Create the following categories:
+
+=================================================
+CATEGORY 1: EMPLOYEE DIRECTORY
+=================================================
+
+Generate 20 employee profiles.
+
+For each employee include:
+- Employee ID
+- Name
+- Department
+- Location
+- Manager
+- Years of experience
+- Skills
+- Current projects
+- Performance rating
+- Career goals
+
+Departments should include:
+- Product
+- Engineering
+- HR
+- Finance
+- Sales
+- Marketing
+
+=================================================
+CATEGORY 2: HR POLICIES
+=================================================
+
+Generate 15 HR policy documents.
+
+Examples:
+- Annual leave policy
+- Work from home policy
+- Maternity leave policy
+- Paternity leave policy
+- Travel policy
+- Employee code of conduct
+- Performance review process
+- Internal mobility policy
+- Learning and development policy
+- Health insurance policy
+
+=================================================
+CATEGORY 3: FINANCE & TAX
+=================================================
+
+Generate 15 finance documents.
+
+Examples:
+- Expense reimbursement policy
+- Corporate credit card policy
+- Tax declaration process
+- Salary structure guide
+- Bonus calculation framework
+- Payroll processing guide
+- Audit compliance procedures
+- Procurement approval matrix
+- Budget planning guidelines
+- Vendor payment process
+
+=================================================
+CATEGORY 4: ENGINEERING DOCUMENTATION
+=================================================
+
+Generate 15 technical documents.
+
+Examples:
+- Kubernetes deployment guide
+- API architecture standards
+- Microservice communication standards
+- Incident management process
+- Monitoring and alerting setup
+- Database backup procedures
+- Authentication architecture
+- CI/CD deployment process
+- Production release checklist
+- Logging standards
+
+=================================================
+CATEGORY 5: CUSTOMER SUPPORT KNOWLEDGE BASE
+=================================================
+
+Generate 15 support articles.
+
+Examples:
+- Password reset
+- Account recovery
+- Subscription upgrade
+- Billing issues
+- API rate limits
+- Feature activation
+- Security settings
+- Mobile app troubleshooting
+- SSO setup
+- User management
+
+=================================================
+CATEGORY 6: PRODUCT MANAGEMENT
+=================================================
+
+Generate 10 product strategy documents.
+
+Examples:
+- Product roadmap
+- OKR planning
+- Feature prioritization framework
+- North Star metrics
+- User research findings
+- Experimentation guidelines
+- Launch checklist
+- Competitive analysis
+- Product requirement document
+- Stakeholder communication plan
+
+=================================================
+OUTPUT FORMAT
+=================================================
+
+Output each document as:
+
+Document ID:
+Category:
+Title:
+
+<document content>
+
+Separate documents using:
+
+===============================
+
+
+================================================================
+VOCABULARY SEPARATION INSTRUCTION (for better embedding clusters)
+================================================================
+
+Make each category use distinct vocabulary.
+
+Examples:
+
+Employee documents:
+employee, manager, promotion, skill, performance review
+
+HR documents:
+leave, policy, compliance, benefits, workplace
+
+Finance documents:
+tax, reimbursement, payroll, audit, budget
+
+Engineering documents:
+Kubernetes, API, deployment, database, microservice
+
+Support documents:
+customer, ticket, issue, troubleshooting, account
+
+Product documents:
+roadmap, OKR, metric, experiment, launch
+
+
+================================================================
+DOCUMENT STATISTICS
+================================================================
+
+Total documents generated: 90
+
+- Employee Directory:        20 employee profiles    (EMP-001 to EMP-020)
+- HR Policies:               15 policy documents     (HR-001  to HR-015)
+- Finance & Tax:             15 finance documents    (FIN-001 to FIN-015)
+- Engineering Documentation: 15 technical documents  (ENG-001 to ENG-015)
+- Customer Support KB:       15 support articles     (SUP-001 to SUP-015)
+- Product Management:        10 strategy documents   (PM-001  to PM-010)
+
+
+================================================================
+FILES IN THIS KNOWLEDGE BASE
+================================================================
+
+employee_directory.txt      - 20 employee profiles
+hr_policies.txt             - 15 HR policy documents
+finance_tax.txt             - 15 finance & tax documents
+engineering_documentation.txt - 15 engineering documents
+customer_support_kb.txt     - 15 customer support articles
+product_management.txt      - 10 product management documents
+master_prompt.txt           - This file (prompt + index)
+
+
+================================================================
+USAGE NOTES FOR RAG DEMO
+================================================================
+
+Recommended embedding model:  text-embedding-3-small or text-embedding-3-large (OpenAI)
+                               or sentence-transformers/all-mpnet-base-v2
+
+Chunking strategy:            Split on "===============================" delimiters.
+                               Each chunk = one document.
+
+Vector store:                 ChromaDB, Pinecone, Weaviate, or FAISS
+
+Visualization:                Use UMAP or t-SNE on the embeddings.
+                               Expect 6 visible clusters — one per category.
+
+Distinct vocabulary by design:
+  - Employee docs:    employee, manager, promotion, skill, performance review
+  - HR docs:          leave, policy, compliance, benefits, workplace
+  - Finance docs:     tax, reimbursement, payroll, audit, budget
+  - Engineering docs: Kubernetes, API, deployment, database, microservice
+  - Support docs:     customer, ticket, issue, troubleshooting, account
+  - Product docs:     roadmap, OKR, metric, experiment, launch
+
+================================================================

@@ -1,0 +1,388 @@
+===============================
+Document ID: FIN-001
+Category: Finance & Tax
+Title: Expense Reimbursement Policy
+
+AcmeTech Solutions Expense Reimbursement Policy
+Effective Date: January 1, 2026
+Policy Owner: Finance and Accounting
+
+Policy Statement
+AcmeTech Solutions will reimburse employees for reasonable and necessary business expenses incurred in the performance of their duties, subject to the requirements and limitations set forth in this policy. All expense claims must be submitted promptly, supported by appropriate receipts, and consistent with AcmeTech's financial controls and budget parameters.
+
+Eligible Expenses
+Reimbursable expenses include travel costs as defined in the Travel Policy, meals during approved business travel, client entertainment when pre-approved by a manager, office supplies purchased for remote work when not available through the company's standard procurement process, and professional development costs covered under the Learning and Development Policy. All other expense categories require written pre-approval from the Finance team.
+
+Expense Submission Process
+Employees must submit expense reports through the AcmeTech expense management system within 15 business days of incurring the expense. Expense reports submitted more than 30 days after the expense date will not be reimbursed unless the delay is due to exceptional circumstances approved by the Finance Director. Each expense report must include itemized line entries, the business purpose for each expense, and supporting receipts.
+
+Receipt Requirements
+Receipts are required for all expenses over $25. Credit card statements are not acceptable as a substitute for itemized receipts. For cash expenses under $25, a written description and business justification are acceptable in lieu of a receipt. Lost receipt declarations must be submitted on the designated form and approved by the employee's manager before reimbursement can be processed.
+
+Reimbursement Timeline
+Approved expense reports are processed within 10 business days of approval by the employee's manager. Reimbursements are paid via direct deposit to the employee's payroll account. Employees who consistently submit late or incomplete expense reports may have their reimbursement privileges suspended pending remedial training on the expense management process.
+
+Non-Reimbursable Expenses
+Personal expenses, including personal meals outside of travel days, personal entertainment, gifts for personal relationships, alcohol except as pre-approved for client entertainment, traffic fines and penalties, and personal insurance premiums are not reimbursable under any circumstances. Employees who submit non-reimbursable expenses will be required to repay those amounts in the next payroll cycle.
+===============================
+Document ID: FIN-002
+Category: Finance & Tax
+Title: Corporate Credit Card Policy
+
+AcmeTech Solutions Corporate Credit Card Policy
+Effective Date: January 1, 2026
+Policy Owner: Finance and Accounting
+
+Policy Statement
+AcmeTech Solutions issues corporate credit cards to employees who regularly incur business expenses as part of their role. This policy governs the issuance, use, and management of corporate credit cards to ensure proper financial controls, accurate expense tracking, and compliance with AcmeTech's budgetary standards.
+
+Card Issuance Eligibility
+Corporate credit cards are issued to employees at the Senior Manager level and above, employees in roles that require frequent business travel, and other employees as approved by the CFO based on documented business need. New employees in eligible roles must complete a minimum of 90 days of service before a card is issued. Card requests must be submitted by the employee's manager to the Finance team with a written business justification.
+
+Authorized Use
+Corporate credit cards are to be used solely for legitimate AcmeTech business expenses. Authorized categories include business travel, client meals and entertainment with prior manager approval, approved procurement purchases, and other pre-approved business expenditures. Under no circumstances may corporate cards be used for personal purchases, cash advances, or any expenditure outside the scope of approved business activities.
+
+Expense Reconciliation
+Cardholders are required to reconcile all corporate card transactions within 10 business days of each month-end statement date. Reconciliation must be completed through the expense management system, with receipts attached for each transaction. Transactions that cannot be reconciled with a valid business justification will be charged back to the cardholder through payroll deduction.
+
+Reporting Lost or Stolen Cards
+Cardholders must immediately report a lost or stolen corporate card to the Finance team and to the card issuer's 24-hour hotline. AcmeTech will not be responsible for unauthorized charges incurred after the card was reported missing. The Finance team will issue a replacement card within five business days of the report.
+
+Card Suspension and Termination
+Corporate cards will be immediately suspended upon an employee's termination of employment. Managers are responsible for ensuring cards are deactivated for employees who transfer to roles where card usage is no longer required. Repeated policy violations, including personal use of the card, failure to reconcile, or late submissions, will result in card revocation and potential disciplinary action.
+===============================
+Document ID: FIN-003
+Category: Finance & Tax
+Title: Tax Declaration Process
+
+AcmeTech Solutions Employee Tax Declaration Process
+Effective Date: January 1, 2026
+Policy Owner: Finance and Payroll
+
+Policy Statement
+AcmeTech Solutions is committed to ensuring all employees complete accurate and timely tax declarations in compliance with federal, state, and local tax regulations applicable in each jurisdiction where the company operates. This document outlines the annual tax declaration process for employees, including timelines, responsibilities, and available resources.
+
+Annual Tax Documentation
+AcmeTech will provide all employees with their W-2 Wage and Tax Statements no later than January 31 of each year for the prior tax year. W-2 forms are delivered electronically through the payroll portal and, where applicable, by mail. Employees who require a corrected W-2 should contact the Payroll team within 30 days of receipt. Correction requests received after March 15 cannot be guaranteed before the standard tax filing deadline.
+
+Pre-Tax Benefit Elections
+Employees who participate in pre-tax benefit programs, including health savings accounts, flexible spending accounts, or 401(k) contributions, will see these deductions reflected on their W-2 as required by IRS regulations. Employees are encouraged to review their W-2 carefully to confirm all pre-tax deductions have been accurately applied. Discrepancies should be reported to Payroll within 10 business days of W-2 issuance.
+
+State and Local Tax Compliance
+AcmeTech operates in multiple states and is responsible for withholding applicable state and local income taxes based on each employee's primary work location and state of residence. Employees who work remotely from a state different from their office location must notify HR and Payroll of their work location to ensure accurate tax withholding. Failure to notify the company of a remote work state may result in incorrect withholding and tax penalties for which the employee will be personally responsible.
+
+Tax Support Resources
+AcmeTech provides access to a tax assistance helpline through its Employee Assistance Program partner for employees with general tax questions. For complex tax matters related to equity compensation, international assignments, or multi-state taxation, the Finance team will coordinate with a designated external tax advisor. Employees on international assignments receive individual tax equalization support coordinated through the Finance and HR teams.
+
+Audit and Compliance
+AcmeTech is committed to full compliance with all applicable tax laws. In the event of a tax audit related to employment tax withholding, the Finance team will work with external tax advisors to respond promptly and accurately. Employees who receive notice of a personal audit related to AcmeTech income should inform the Finance team immediately so appropriate documentation can be prepared.
+===============================
+Document ID: FIN-004
+Category: Finance & Tax
+Title: Salary Structure Guide
+
+AcmeTech Solutions Salary Structure Guide
+Effective Date: January 1, 2026
+Policy Owner: Finance and Human Resources
+
+Policy Statement
+This document provides an overview of AcmeTech Solutions' salary structure framework, including job levels, compensation bands, and the principles governing base salary determinations and adjustments. The salary structure is designed to ensure equitable, market-competitive, and internally consistent compensation across all roles and departments.
+
+Job Leveling Framework
+AcmeTech uses a standardized job leveling framework to classify all roles from Level 1 to Level 9. Levels 1 through 3 represent individual contributor entry and mid-level roles. Levels 4 and 5 represent senior individual contributor and emerging leadership roles. Levels 6 and 7 represent manager and director-level positions. Levels 8 and 9 represent VP and C-suite executive roles. Each level is associated with a defined set of competency expectations, scope of impact, and decision-making authority.
+
+Compensation Bands
+Each job level is associated with a salary band consisting of a minimum, midpoint, and maximum base salary. Salary bands are reviewed annually against market benchmarking data from two independent compensation surveys. AcmeTech targets the 65th percentile of market pay for all roles to attract and retain high-quality talent. Compensation bands by level are published annually and shared with managers and HR Business Partners.
+
+Salary Determination at Hire
+Offers of employment are made within the established compensation band for the relevant role and level. Starting salary is determined based on the candidate's experience, qualifications, internal pay equity considerations, and current market conditions. Offers above the midpoint of the compensation band require VP-level approval. Offers above the band maximum require CFO approval and documentation of exceptional circumstances.
+
+Merit Increases and Adjustments
+Annual merit increases are processed during the January payroll cycle for all eligible employees. Increase percentages are linked to performance ratings as follows: Outstanding (5-7%), Exceeds Expectations (3-5%), Meets Expectations (1.5-3%), Needs Improvement (0%), Unsatisfactory (0%). Budget availability may affect final merit increase amounts in any given year.
+
+Pay Equity Reviews
+AcmeTech conducts an annual pay equity analysis to identify and address statistically significant pay gaps across gender, race, and other demographic dimensions within the same job level and function. Adjustments recommended through the pay equity analysis are implemented in the January payroll cycle alongside merit increases.
+===============================
+Document ID: FIN-005
+Category: Finance & Tax
+Title: Bonus Calculation Framework
+
+AcmeTech Solutions Bonus Calculation Framework
+Effective Date: January 1, 2026
+Policy Owner: Finance and Human Resources
+
+Policy Statement
+AcmeTech Solutions offers performance-based variable compensation in the form of annual bonuses to eligible employees. This Bonus Calculation Framework describes the structure, eligibility criteria, performance metrics, and payout mechanics of AcmeTech's annual bonus program.
+
+Eligibility
+All full-time permanent employees who are actively employed on December 31 of the performance year and who have completed a minimum of six months of continuous service are eligible for the annual bonus. Employees on unpaid leave for more than 90 days during the performance year will have their bonus calculated on a prorated basis reflecting actual days worked. Employees who resign or are terminated before December 31 are not eligible for the annual bonus unless explicitly stated in their employment agreement.
+
+Target Bonus Levels
+Bonus targets are expressed as a percentage of annual base salary and vary by job level. Level 1–3 employees have a target of 5% of base salary. Level 4–5 employees have a target of 10%. Level 6–7 (Manager and Director) have a target of 15–20%. Level 8 (VP) has a target of 25–30%. C-suite executives have individual targets defined in their employment agreements.
+
+Bonus Calculation
+The actual bonus payout is calculated as: Target Bonus x Company Performance Multiplier x Individual Performance Multiplier. The Company Performance Multiplier is set by the executive team and board based on company-wide revenue, EBITDA, and strategic goal achievement against the annual plan. The multiplier ranges from 0 to 1.5. The Individual Performance Multiplier is derived from the employee's annual performance rating: Outstanding (1.25), Exceeds Expectations (1.10), Meets Expectations (1.0), Needs Improvement (0.5), Unsatisfactory (0).
+
+Payout Timing
+Annual bonuses are paid in the February payroll cycle of the year following the performance year. Bonuses are subject to standard income tax withholding. Employees who joined the company during the performance year will receive a prorated bonus based on their start date.
+
+Discretionary Nature
+AcmeTech reserves the right to modify, reduce, or eliminate the bonus program in any year based on business conditions, at the sole discretion of the executive team and board. Participation in the bonus program does not constitute a guarantee of any specific payout amount or the continuation of the program in future years.
+===============================
+Document ID: FIN-006
+Category: Finance & Tax
+Title: Payroll Processing Guide
+
+AcmeTech Solutions Payroll Processing Guide
+Effective Date: January 1, 2026
+Policy Owner: Finance and Payroll
+
+Policy Statement
+This guide describes AcmeTech Solutions' payroll processing schedule, procedures, and controls. It is intended for use by the Finance and Payroll teams and serves as the authoritative reference for all payroll-related operations, including regular pay cycles, off-cycle payments, deductions, and compliance reporting.
+
+Payroll Schedule
+AcmeTech operates on a bi-weekly payroll cycle, with pay periods running from Monday to Sunday. Payroll is processed on the Wednesday following the close of each pay period, with direct deposit funds available to employees by the following Friday. The annual payroll calendar, including all processing dates, submission deadlines, and holiday schedule adjustments, is published in the Finance team's shared internal knowledge base at the start of each calendar year.
+
+Payroll Inputs and Cutoff
+All payroll inputs, including new hire data, salary changes, terminations, and leave balance adjustments, must be submitted to the Payroll team by 5:00 PM on the Tuesday prior to the processing Wednesday. Inputs received after the cutoff will be processed in the following pay cycle. HR and Finance systems are integrated to automate the transfer of employee master data and approved change transactions to the payroll system.
+
+Deductions and Withholding
+Payroll deductions include federal, state, and local income tax withholding based on employee W-4 elections, employee contributions to health insurance, retirement plan contributions, and any garnishments or court-ordered deductions. Pre-tax deductions are processed before tax calculations in compliance with IRS regulations. Post-tax deductions are processed in the order specified by applicable legal requirements.
+
+Payroll Reconciliation
+The Payroll team performs a reconciliation of each payroll run before funds are released. Reconciliation includes validating headcount, total gross pay, net pay, and all deduction totals against the prior period baseline and approved change log. Any variance above $500 must be escalated to the Finance Director for approval before payroll is finalized. The completed reconciliation report is archived for audit purposes.
+
+Tax Filings and Compliance
+AcmeTech's payroll system generates and submits all required federal and state payroll tax filings, including IRS Forms 941, 940, and state equivalent forms, on the applicable schedules. All employer tax obligations, including FICA matching, FUTA, and SUTA, are calculated and remitted on the required schedule. The Finance team maintains payroll records for a minimum of seven years in compliance with applicable record retention requirements.
+===============================
+Document ID: FIN-007
+Category: Finance & Tax
+Title: Audit Compliance Procedures
+
+AcmeTech Solutions Audit Compliance Procedures
+Effective Date: January 1, 2026
+Policy Owner: Finance and Internal Audit
+
+Policy Statement
+AcmeTech Solutions is committed to maintaining financial records and internal controls that meet the highest standards of accuracy, completeness, and compliance. This document outlines the procedures for managing both internal and external audits, including preparation, coordination, response, and remediation activities.
+
+Annual External Audit
+AcmeTech undergoes an annual financial statement audit conducted by an independent external audit firm. The audit covers all financial statements for the calendar year and is completed in accordance with Generally Accepted Auditing Standards. The Finance team must have all year-end close activities completed and financial statements prepared no later than February 28. Audit fieldwork typically begins in March, with the final audit opinion issued no later than April 30.
+
+Internal Audit Program
+AcmeTech maintains an internal audit function that conducts risk-based audits of key financial and operational processes throughout the year. The annual internal audit plan is approved by the Audit Committee and covers areas including payroll controls, expense management, procurement compliance, revenue recognition, and IT general controls. Internal audit findings are reported to the CFO and Audit Committee on a quarterly basis.
+
+Audit Preparation
+Department heads are responsible for ensuring their teams maintain complete, accurate, and well-organized documentation for all financial transactions throughout the year. Finance Business Partners will provide audit preparation checklists to each department four weeks before the scheduled audit fieldwork commences. Employees must respond to auditor requests for documentation within three business days.
+
+Control Remediation
+Any control deficiencies identified through internal or external audit are documented in a remediation tracker maintained by the Finance team. Each finding is assigned an owner, a remediation plan, and a target completion date. Remediation progress is reviewed monthly by the CFO. Critical findings must be remediated within 60 days. High-priority findings must be remediated within 90 days.
+
+Fraud Prevention and Detection
+AcmeTech maintains a zero-tolerance policy for financial fraud. The Finance team is responsible for implementing preventive controls including segregation of duties, dual approval requirements for disbursements over $10,000, and regular reconciliation of all balance sheet accounts. Employees who suspect financial fraud must report it immediately through the Ethics Hotline. Retaliation against fraud reporters is strictly prohibited.
+===============================
+Document ID: FIN-008
+Category: Finance & Tax
+Title: Procurement Approval Matrix
+
+AcmeTech Solutions Procurement Approval Matrix
+Effective Date: January 1, 2026
+Policy Owner: Finance and Operations
+
+Policy Statement
+AcmeTech Solutions requires appropriate authorization for all procurement activities to ensure that expenditures are aligned with approved budgets, support legitimate business needs, and are subject to adequate competitive evaluation. This Procurement Approval Matrix defines the authorization levels required for all purchase categories and amounts.
+
+Approval Tiers
+Tier 1: Purchases up to $1,000 may be approved by the employee's direct manager. Tier 2: Purchases between $1,001 and $10,000 require approval from the department head or Director. Tier 3: Purchases between $10,001 and $50,000 require approval from the VP of the relevant function and the Finance Director. Tier 4: Purchases above $50,000 require CFO approval and, for amounts above $250,000, Board or Audit Committee approval is required.
+
+Vendor Selection Requirements
+All new vendor relationships above $5,000 in annual spend require a minimum of three competitive quotes unless a sole-source justification is approved by the Finance Director. Preferred vendor agreements must be reviewed and renewed annually. Vendors must complete AcmeTech's standard vendor onboarding documentation, including proof of insurance, tax forms, and anti-corruption attestation, before any purchase order can be issued.
+
+Purchase Order Requirements
+All purchases above $2,500 require a formal purchase order issued through AcmeTech's procurement system before any commitment is made to a vendor. Purchase orders must reference an approved budget line item. Verbal commitments to vendors without a purchase order are not binding on AcmeTech and will not be honored for payment. Employees who commit to purchases without proper authorization are personally responsible for those costs.
+
+IT and Software Procurement
+All technology purchases, including software licenses, cloud services, and hardware, must be reviewed and approved by the IT Security and Architecture teams before budget and procurement approval is sought. Shadow IT purchases are strictly prohibited. The IT team maintains a list of approved software vendors and security-reviewed tools accessible on the internal knowledge base.
+
+Sole-Source and Emergency Procurement
+In cases where competitive bidding is not practical due to urgency or unique vendor capabilities, a sole-source justification must be submitted to the Finance Director within 24 hours of the purchase commitment. The justification must include the reason competitive bids were not obtained and documentation of the business urgency. Emergency procurements above $50,000 require CFO notification within the same business day.
+===============================
+Document ID: FIN-009
+Category: Finance & Tax
+Title: Budget Planning Guidelines
+
+AcmeTech Solutions Annual Budget Planning Guidelines
+Effective Date: January 1, 2026
+Policy Owner: Finance
+
+Policy Statement
+This document provides department leaders and finance business partners with guidelines for the annual budget planning process at AcmeTech Solutions. The budget plan is a critical financial management tool that aligns resource allocation with company strategy and ensures accountability for financial performance throughout the year.
+
+Budget Planning Timeline
+The annual budget planning process begins in October each year for the following fiscal year. October is designated for top-down guidance distribution, including revenue targets, headcount limits, and strategic investment priorities. November is reserved for department-level budget submissions. December is used for Finance consolidation, leadership review, and iteration. Budget approval by the board takes place in the first week of January.
+
+Budget Submission Requirements
+Each department head must submit a budget proposal covering the following categories: personnel costs including base salary, benefits, and employer taxes; direct operating costs relevant to the department's function; technology and software costs; travel and entertainment; professional services and consulting; and capital expenditures if applicable. All submissions must be made using the standard budget template provided by Finance and uploaded to the budgeting platform by November 15.
+
+Headcount Planning
+Headcount plans must be submitted alongside financial budget submissions. Headcount plans should include current approved headcount, proposed new hires by role and expected start date, planned promotions, and anticipated attrition. All net new headcount above the approved baseline requires documented business justification and must be included in a formal headcount request reviewed by the CFO and CPO.
+
+Budget Assumptions and Sensitivities
+Department heads should document the key assumptions underlying their budget submissions, including expected business volume, pricing changes, or operational efficiencies. Finance will provide a set of company-wide macro assumptions including inflation rates, currency exchange rates, and headcount cost factors to ensure consistency across submissions.
+
+In-Year Budget Management
+Approved budgets are tracked monthly through the expense management and financial reporting system. Budget versus actuals reports are distributed to department heads on the fifth business day after each month close. Requests to transfer budget between categories or to access unplanned spending require Finance Director approval through the budget amendment process.
+===============================
+Document ID: FIN-010
+Category: Finance & Tax
+Title: Vendor Payment Process
+
+AcmeTech Solutions Vendor Payment Process
+Effective Date: January 1, 2026
+Policy Owner: Finance and Accounts Payable
+
+Policy Statement
+This document describes the standard process for processing and disbursing vendor payments at AcmeTech Solutions. All vendor payments must adhere to this process to ensure accuracy, proper authorization, and compliance with AcmeTech's financial controls.
+
+Invoice Receipt and Validation
+Vendor invoices must be sent directly to AcmeTech's designated accounts payable email address or submitted through the vendor portal. Invoices submitted to individual employees will be redirected to accounts payable; however, this practice may cause payment delays. Upon receipt, the Accounts Payable team validates each invoice against the corresponding purchase order, confirming vendor name, invoice amount, line items, and delivery confirmation where applicable.
+
+Three-Way Match
+AcmeTech requires a three-way match for all invoices above $1,000: the invoice is matched against the purchase order and the goods receipt or service confirmation. Invoices that fail the three-way match will be placed on hold and the originating department will be notified within two business days to resolve the discrepancy. Payment will not be processed until the three-way match is confirmed.
+
+Payment Terms and Scheduling
+Standard payment terms with vendors are Net 30 from the date of invoice receipt. Early payment discount terms will be honored where they represent a favorable return on capital, subject to Finance Director approval. Accounts Payable generates a weekly payment run every Thursday, covering all invoices approved for payment during the prior week. Urgent payment requests outside the standard payment run require VP-level approval.
+
+Payment Methods
+AcmeTech disburses vendor payments primarily via ACH bank transfer. Wire transfers are used for international vendors or in cases where ACH is not available. Checks are issued only in exceptional circumstances and require Finance Director approval. New vendor banking details must be verified through a dual-authentication process before the first payment is made to prevent fraudulent redirection of funds.
+
+Payment Disputes and Credits
+Vendors with disputed invoices must contact the accounts payable team in writing within 30 days of the invoice date. AcmeTech will investigate and respond within 10 business days. Approved credit memos from vendors will be applied to future invoices from the same vendor. Refund requests from vendors are processed through the same payment channels as standard disbursements.
+===============================
+Document ID: FIN-011
+Category: Finance & Tax
+Title: Revenue Recognition Policy
+
+AcmeTech Solutions Revenue Recognition Policy
+Effective Date: January 1, 2026
+Policy Owner: Finance
+
+Policy Statement
+AcmeTech Solutions recognizes revenue in accordance with ASC 606, Revenue from Contracts with Customers. This policy ensures that revenue is recorded accurately, consistently, and in compliance with applicable accounting standards. All revenue-related transactions must be reviewed by Finance before recognition.
+
+Five-Step Model
+AcmeTech applies the ASC 606 five-step model to all customer contracts. Step 1: Identify the contract with the customer. Step 2: Identify the performance obligations in the contract. Step 3: Determine the transaction price. Step 4: Allocate the transaction price to each performance obligation. Step 5: Recognize revenue when or as each performance obligation is satisfied.
+
+SaaS Subscription Revenue
+Subscription revenue is recognized ratably over the contract term, beginning on the date the customer's access to the platform is provisioned. Annual and multi-year subscription payments received in advance are recorded as deferred revenue and recognized proportionally on a monthly basis. Any discounts or variable consideration in subscription contracts must be evaluated and documented by Finance before contract execution.
+
+Professional Services Revenue
+Revenue from implementation and consulting services is recognized as services are delivered, based on the percentage of completion method. Project milestones used for revenue recognition must be documented in the statement of work and approved by Finance prior to contract signing. Revenue from time-and-materials engagements is recognized monthly based on actual hours delivered.
+
+Contract Modifications
+Any changes to existing customer contracts that affect the scope, price, or term must be reviewed by Finance before execution. Modifications may require revenue to be reallocated among performance obligations or may be treated as a separate contract depending on the nature of the change. Sales and Legal must engage Finance on all material contract modifications.
+===============================
+Document ID: FIN-012
+Category: Finance & Tax
+Title: Equity Compensation Guide
+
+AcmeTech Solutions Equity Compensation Guide
+Effective Date: January 1, 2026
+Policy Owner: Finance and Human Resources
+
+Policy Statement
+AcmeTech Solutions offers equity compensation as a component of total compensation for eligible employees. This guide provides an overview of AcmeTech's equity plan, including grant types, vesting schedules, exercise processes, and tax implications.
+
+Equity Plan Overview
+AcmeTech grants equity in the form of Restricted Stock Units (RSUs) to all full-time employees at the Senior level and above. Stock options may also be granted to certain senior and executive employees as specified in their offer letters or annual equity review. RSU grants are made annually in February as part of the compensation review cycle.
+
+Vesting Schedule
+Standard RSU grants vest over a four-year period with a one-year cliff. Employees must be continuously employed at AcmeTech on each vesting date to receive the vested shares. Acceleration of vesting may occur in certain scenarios, including a change of control event as defined in the equity plan documents.
+
+Tax Treatment of RSUs
+RSUs are taxable as ordinary income at the time of vesting, based on the fair market value of the shares on the vesting date. AcmeTech withholds the applicable payroll taxes at vesting, typically by retaining a portion of the vested shares to cover the tax obligation through net share settlement. Employees are responsible for reporting RSU income on their personal tax returns. The Finance team coordinates with the payroll system to ensure RSU tax events are reflected accurately in W-2 reporting.
+
+Equity Grants for New Hires
+New hire RSU grants are made upon the first regularly scheduled grant cycle following the employee's 90-day probationary period. Grant sizes are determined based on job level and are reviewed annually against market benchmarks by the Finance and HR teams. Grant amounts are communicated to employees through their offer letter and confirmed in a formal grant agreement issued through the equity management platform.
+
+Termination and Equity
+Unvested RSUs are forfeited upon termination of employment for any reason. Employees who resign voluntarily or are terminated for cause forfeit all unvested equity. In cases of termination without cause, the Finance and HR teams will review any accelerated vesting provisions in the employee's specific agreement before finalizing equity outcomes.
+===============================
+Document ID: FIN-013
+Category: Finance & Tax
+Title: Cash Management Policy
+
+AcmeTech Solutions Cash Management Policy
+Effective Date: January 1, 2026
+Policy Owner: Finance
+
+Policy Statement
+AcmeTech Solutions maintains a rigorous cash management framework to ensure the company has sufficient liquidity to meet its obligations, optimize returns on cash balances, and comply with all financial covenants. This policy governs cash positioning, banking relationships, investment of surplus funds, and cash flow forecasting.
+
+Cash Positioning and Liquidity Management
+The Finance team maintains a daily cash position report that tracks cash balances across all operating accounts. The target minimum operating cash balance is three months of projected operating expenses. The CFO reviews the cash position weekly and is responsible for ensuring the company maintains adequate liquidity at all times. Cash below the minimum threshold must be escalated immediately to the CEO and board.
+
+Banking Relationships
+AcmeTech maintains primary banking relationships with two financial institutions to ensure redundancy and minimize concentration risk. All new banking relationships require CFO approval and a due diligence review of the institution's financial stability and service capabilities. Wire transfers above $500,000 require dual authorization from two designated Finance team signatories.
+
+Investment of Surplus Cash
+Surplus operating cash above a board-approved threshold may be invested in low-risk, highly liquid instruments including US Treasury securities, money market funds, and short-term certificates of deposit with maturities not exceeding 90 days. Investments in equity securities or instruments with credit ratings below investment grade are prohibited. All investment decisions above $1 million require CFO approval.
+
+Cash Flow Forecasting
+The Finance team produces a 13-week rolling cash flow forecast updated weekly. The forecast incorporates accounts receivable collections, vendor payment schedules, payroll timing, and planned capital expenditures. Variances between forecast and actual cash flows exceeding 10% must be analyzed and documented. The annual cash flow forecast is prepared as part of the budget planning process.
+
+Intercompany Transactions
+All intercompany transfers between AcmeTech entities require written documentation including the amount, purpose, applicable intercompany agreement, and Finance approval. Intercompany loan arrangements must be documented with market-rate interest terms and reviewed by external tax advisors to ensure compliance with transfer pricing requirements.
+===============================
+Document ID: FIN-014
+Category: Finance & Tax
+Title: Chart of Accounts Guide
+
+AcmeTech Solutions Chart of Accounts Guide
+Effective Date: January 1, 2026
+Policy Owner: Finance
+
+Policy Statement
+The Chart of Accounts is the foundational framework for AcmeTech's financial recordkeeping. This guide provides all Finance team members and budget owners with a reference for proper account coding of all financial transactions to ensure consistency, accuracy, and auditability of AcmeTech's financial statements.
+
+Account Structure
+AcmeTech's chart of accounts follows a five-digit account numbering structure. The first digit designates the account type: 1 for assets, 2 for liabilities, 3 for equity, 4 for revenue, and 5 through 9 for expenses by category. The remaining four digits designate the specific account within each type. Departments are coded using a three-digit department code appended to the account number to enable department-level financial reporting.
+
+Asset Accounts
+Asset accounts cover cash and cash equivalents, accounts receivable, prepaid expenses, property and equipment, right-of-use assets for operating leases, capitalized software development costs, and intangible assets. All capitalized assets must have a corresponding asset record in AcmeTech's asset management system, including acquisition date, useful life, and depreciation method.
+
+Liability Accounts
+Liability accounts include accounts payable, accrued expenses, deferred revenue from customer contracts, operating lease liabilities, and short-term and long-term debt. Accruals must be supported by calculations reviewed by the accounting team at each period close. Deferred revenue balances must reconcile to the customer contract management system monthly.
+
+Revenue Accounts
+Revenue is coded by revenue type: SaaS subscription revenue, professional services revenue, support and maintenance revenue, and other revenue. Each revenue account has a corresponding deferred revenue account for advance payments. Revenue accounts must be coded consistently with the Revenue Recognition Policy and contract terms documented in the CRM system.
+
+Expense Accounts
+Expense accounts are organized by nature: personnel costs, software and technology, office and facilities, marketing and events, travel and entertainment, professional services, depreciation and amortization, and other operating expenses. All expense entries must reference both the appropriate expense account and the applicable department code to enable proper cost center reporting and budget variance analysis.
+===============================
+Document ID: FIN-015
+Category: Finance & Tax
+Title: Financial Reporting Standards
+
+AcmeTech Solutions Financial Reporting Standards
+Effective Date: January 1, 2026
+Policy Owner: Finance
+
+Policy Statement
+AcmeTech Solutions prepares financial reports in accordance with US Generally Accepted Accounting Principles (US GAAP). This document establishes the standards, timelines, and responsibilities for internal and external financial reporting. Consistent, accurate, and timely reporting is essential to management decision-making, investor relations, and regulatory compliance.
+
+Monthly Close Process
+The Finance team follows a structured month-end close process. Day 1 through Day 3 post-month-end: Transaction recording and reconciliation of key balance sheet accounts. Day 4 through Day 5: Accrual review and journal entry approval. Day 6 through Day 7: Management reporting package preparation. Day 8: Distribution of the management reporting package to department heads and executives.
+
+Quarterly Financial Reporting
+AcmeTech prepares quarterly financial statements including the income statement, balance sheet, and cash flow statement. The quarterly reporting package includes a management discussion section prepared by the CFO that provides narrative context on financial performance, key metrics, and variances against plan. The quarterly package is reviewed by the Audit Committee and distributed to the board within 20 business days of each quarter-end.
+
+Key Performance Indicator Reporting
+Finance produces a monthly KPI dashboard that tracks revenue, annual recurring revenue, net revenue retention, gross margin, operating expenses by category, and cash runway. The KPI dashboard is reviewed by the executive leadership team at the monthly business review meeting. Finance Business Partners are responsible for providing department-level metric commentary to accompany the dashboard.
+
+Annual Financial Statements
+Annual audited financial statements are prepared in accordance with US GAAP and include the balance sheet, income statement, statement of cash flows, and statement of changes in equity, along with footnote disclosures required by accounting standards. The statements are reviewed by the Audit Committee and approved by the board. Distribution of audited statements to investors follows the timeline specified in AcmeTech's investor agreements.
+
+Accounting Policy Changes
+Any changes to AcmeTech's accounting policies or estimates must be reviewed and approved by the CFO and external auditors before implementation. Accounting policy changes are disclosed in the financial statement footnotes in accordance with US GAAP requirements. Significant estimates, including deferred revenue timing, allowance for doubtful accounts, and useful lives of capitalized assets, are reviewed annually.
+===============================

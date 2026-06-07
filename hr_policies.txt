@@ -1,0 +1,388 @@
+===============================
+Document ID: HR-001
+Category: HR Policies
+Title: Annual Leave Policy
+
+AcmeTech Solutions Annual Leave Policy
+Effective Date: January 1, 2026
+Policy Owner: People Operations
+
+Policy Statement
+AcmeTech Solutions is committed to providing employees with adequate time away from work to rest, recharge, and attend to personal matters. This Annual Leave Policy outlines employee entitlements, accrual methods, approval procedures, and compliance expectations applicable to all full-time and part-time employees.
+
+Leave Entitlements
+All full-time employees are entitled to a minimum of 20 days of paid annual leave per calendar year, accruing at a rate of 1.67 days per month. Employees with more than five years of continuous service receive an additional five days, bringing total entitlement to 25 days. Part-time employees receive leave on a pro-rated basis proportional to their contracted hours. Employees in their probationary period may accrue leave but may not take leave until the probationary period is successfully completed, unless approved by the HR department under exceptional circumstances.
+
+Carryover Rules
+A maximum of five unused annual leave days may be carried over from one calendar year to the next. Any accrued leave in excess of five days at year-end will be forfeited unless an employee has an active approved leave request that could not be fulfilled due to business requirements. Employees must request carryover extensions in writing to their HR Business Partner no later than November 30.
+
+Leave Request and Approval Process
+Employees must submit leave requests through the AcmeTech HR self-service portal with a minimum of five business days notice for absences of one to three days, and a minimum of ten business days notice for absences of four or more consecutive days. Requests are subject to manager approval, which should be granted or declined within three business days of submission. Managers are responsible for ensuring adequate team coverage during leave periods. Denial of a leave request must be accompanied by a written explanation and a proposed alternative leave window.
+
+Leave During Notice Period
+Employees who have resigned or been issued notice of termination may take approved annual leave during the notice period at the manager's discretion. In cases where leave cannot be accommodated, accrued leave balances will be paid out in the final paycheck in accordance with applicable employment law.
+
+Policy Compliance
+Failure to obtain leave approval before absence, falsification of leave records, or abuse of the leave policy may result in disciplinary action up to and including termination. Employees with concerns about leave entitlements or approvals should contact the HR department at hrteam@acmetechsolutions.com.
+===============================
+Document ID: HR-002
+Category: HR Policies
+Title: Work From Home Policy
+
+AcmeTech Solutions Work From Home Policy
+Effective Date: March 1, 2026
+Policy Owner: People Operations
+
+Policy Statement
+AcmeTech Solutions recognizes that flexible workplace arrangements can enhance employee productivity, job satisfaction, and work-life balance. This Work From Home Policy governs the conditions under which employees may work remotely and establishes the standards of professional conduct, availability, and data security expected of remote employees.
+
+Eligibility
+Work from home arrangements are available to employees who have completed their probationary period and whose role has been assessed as suitable for remote work by their manager and HR Business Partner. Roles requiring on-site physical presence, client-facing duties in person, or access to secure facilities are not eligible for regular work from home arrangements. Eligibility may be reviewed and adjusted at any time based on business needs.
+
+Standard Remote Work Arrangements
+AcmeTech employees on approved work from home arrangements may work remotely up to three days per week, with a minimum of two days per week spent in the designated office location. Employees wishing to work from home on specific days must inform their manager by 9:00 AM on the day in question and ensure availability via AcmeTech's standard communication tools throughout core hours of 9:00 AM to 5:00 PM local time.
+
+Home Office Requirements
+Employees working from home are responsible for maintaining a safe, ergonomic, and distraction-free work environment. AcmeTech will provide a remote work equipment stipend of up to $500 per year to support home office setup. Employees must use AcmeTech-approved devices and must connect to the company VPN at all times when accessing internal systems remotely. Use of personal devices to access company data requires prior approval from the IT Security team.
+
+Performance and Availability Standards
+Remote employees are held to the same performance standards as office-based employees. Failure to meet performance expectations will result in the work from home arrangement being reviewed and potentially revoked. Employees on performance improvement plans are not eligible for work from home arrangements without explicit HR approval.
+
+Compliance and Review
+This policy will be reviewed annually by the People Operations team in consultation with department heads. Violations of this policy, including failure to maintain VPN connectivity or unapproved use of personal devices for company work, may result in revocation of remote work privileges and potential disciplinary action.
+===============================
+Document ID: HR-003
+Category: HR Policies
+Title: Maternity Leave Policy
+
+AcmeTech Solutions Maternity Leave Policy
+Effective Date: January 1, 2026
+Policy Owner: People Operations
+
+Policy Statement
+AcmeTech Solutions is committed to supporting employees through the significant life event of becoming a parent. This Maternity Leave Policy outlines the leave entitlements, pay provisions, and return-to-work procedures for employees who give birth to or adopt a child. AcmeTech's policy meets or exceeds all applicable statutory maternity leave requirements in the jurisdictions where it operates.
+
+Leave Entitlement
+Eligible employees are entitled to up to 26 weeks of maternity leave. The first 16 weeks are paid at 100% of the employee's base salary. Weeks 17 through 26 are paid at 60% of base salary. Employees who are primary caregivers in an adoption arrangement are entitled to the same leave and pay provisions. Eligibility requires a minimum of six months of continuous service at AcmeTech prior to the expected date of birth or adoption placement.
+
+Notification and Documentation
+Employees are encouraged to notify their manager and the HR department as early as practicable, and no later than 10 weeks before the expected start of leave. Employees must submit a formal maternity leave request form through the HR portal and provide supporting documentation including a medical certificate confirming the expected due date. Leave start dates may be adjusted in cases of early birth with appropriate medical documentation.
+
+Health Insurance and Benefits Continuation
+AcmeTech will continue to provide full health insurance coverage, including medical, dental, and vision, throughout the maternity leave period. Retirement contributions and accrual of annual leave will continue during the paid leave period. Annual leave does not accrue during the unpaid portion of leave, if any.
+
+Return to Work
+Employees returning from maternity leave are guaranteed the same role or an equivalent role at the same or higher grade level. AcmeTech encourages a phased return to work and will work with returning employees to create a reintegration plan. Employees wishing to request a change in working arrangements upon return, such as reduced hours or flexible scheduling, should submit a formal request to HR no later than four weeks before their return date.
+
+Confidentiality
+All maternity leave matters are treated with the strictest confidentiality. Employees should feel comfortable discussing their leave plans with HR without concern that the information will be shared beyond what is necessary for operational planning.
+===============================
+Document ID: HR-004
+Category: HR Policies
+Title: Paternity Leave Policy
+
+AcmeTech Solutions Paternity Leave Policy
+Effective Date: January 1, 2026
+Policy Owner: People Operations
+
+Policy Statement
+AcmeTech Solutions values the role of all parents in nurturing their children and supports a culture where employees can take meaningful time away from work following the birth or adoption of a child. This Paternity Leave Policy outlines the entitlements and procedures for employees who are the secondary caregiver following the arrival of a new child.
+
+Leave Entitlement
+All eligible employees who are the secondary caregiver are entitled to four weeks of fully paid paternity leave, to be taken within six months of the birth or adoption placement date. Employees may take leave in one continuous block or in two separate blocks of a minimum of one week each, subject to manager approval. Eligibility requires completion of the probationary period prior to the expected birth or adoption date.
+
+Additional Unpaid Leave
+Employees may request up to an additional four weeks of unpaid leave following the paid paternity entitlement period. Unpaid leave requests must be submitted to HR and manager in writing a minimum of four weeks in advance. Approval will be granted based on business needs and staffing requirements.
+
+Notification Requirements
+Employees should notify their manager and HR Business Partner at the earliest practicable time after becoming aware of the expected birth or adoption, and no later than six weeks before the intended leave start date. A formal paternity leave request form must be submitted through the HR self-service portal.
+
+Benefits During Leave
+Full health insurance benefits, including medical, dental, and vision, will be maintained during the paid paternity leave period. Annual leave continues to accrue during paid leave. Retirement contributions will also continue in line with company policy during paid leave periods.
+
+Return to Work and Role Protection
+Employees are guaranteed their same role or an equivalent role upon return from paternity leave. AcmeTech strongly encourages managers to maintain regular, non-pressuring contact with employees on leave to support a smooth reintegration. Managers must not make adverse employment decisions based on an employee's use of paternity leave entitlements. Any concerns about role protection should be directed to the HR department immediately.
+===============================
+Document ID: HR-005
+Category: HR Policies
+Title: Travel Policy
+
+AcmeTech Solutions Employee Travel Policy
+Effective Date: January 1, 2026
+Policy Owner: People Operations and Finance
+
+Policy Statement
+This Travel Policy establishes guidelines for all business-related travel undertaken by AcmeTech Solutions employees. The policy is designed to ensure that travel is necessary, cost-effective, and conducted in compliance with company financial controls. All employees who travel for business purposes are required to follow this policy in full.
+
+Pre-Travel Approval
+All domestic travel must be approved by the employee's direct manager prior to booking. International travel requires approval from both the direct manager and the relevant department head. Employees must submit a travel request through the AcmeTech expense management system, including purpose of travel, estimated costs, and travel dates, a minimum of five business days before the intended departure date for domestic trips and ten business days for international trips.
+
+Booking and Class of Travel
+All airfare must be booked through AcmeTech's preferred travel management platform. Economy class is the standard for all flights of less than six hours in duration. Business class may be approved for flights exceeding six hours on a case-by-case basis with VP-level approval. Hotel accommodations must be selected from AcmeTech's preferred hotel list or comparable options within the company's published nightly rate limits: $200 per night for domestic travel and $250 per night for international travel.
+
+Ground Transportation and Meals
+Employees should use ride-sharing services or public transportation where practical. Rental car usage must be pre-approved and restricted to trips where other transportation options are not viable. A daily meal allowance of $60 domestic and $85 international is provided. Alcohol expenses are not reimbursable under this policy.
+
+Expense Reimbursement
+All travel expenses must be submitted through the expense management system within 15 business days of returning from travel. Receipts are required for all individual expenses over $25. Expenses submitted without receipts will not be reimbursed. The Finance team will process approved reimbursements within 10 business days.
+
+Non-Reimbursable Expenses
+Personal entertainment, upgrades, seat selections beyond standard economy, travel insurance purchased without prior approval, and expenses incurred for personal guests are not reimbursable. Employees who incur non-reimbursable expenses will be personally responsible for those costs.
+===============================
+Document ID: HR-006
+Category: HR Policies
+Title: Employee Code of Conduct
+
+AcmeTech Solutions Employee Code of Conduct
+Effective Date: January 1, 2026
+Policy Owner: People Operations and Legal
+
+Policy Statement
+AcmeTech Solutions expects all employees to conduct themselves with integrity, professionalism, and respect in all work-related activities. This Code of Conduct applies to all employees, contractors, and interns working with or on behalf of AcmeTech Solutions. Adherence to this code is a condition of employment and reflects the values upon which AcmeTech was founded.
+
+Professional Standards
+Employees are expected to perform their duties to the best of their ability and to comply with all applicable laws and company policies. Employees must represent AcmeTech with honesty and must not misrepresent the company's products, services, financial position, or capabilities in any communication with customers, partners, or the public.
+
+Respect and Inclusion
+AcmeTech is committed to a workplace free from harassment, discrimination, and bullying. All employees are expected to treat colleagues, customers, and partners with dignity and respect regardless of age, gender identity, race, ethnicity, religion, sexual orientation, disability, or any other protected characteristic. Conduct that demeans, excludes, intimidates, or creates a hostile work environment will not be tolerated and may result in immediate disciplinary action.
+
+Conflicts of Interest
+Employees must avoid situations where personal interests conflict or may appear to conflict with AcmeTech's interests. Employees must disclose any potential conflicts of interest, including financial relationships with vendors, customers, or competitors, to their manager and HR in writing using the Conflict of Interest Disclosure Form available on the HR portal.
+
+Confidentiality
+Employees are expected to protect AcmeTech's confidential information, including trade secrets, customer data, financial data, and proprietary technology. Confidentiality obligations survive the end of employment. Employees must not share confidential information with unauthorized parties or use it for personal gain.
+
+Reporting and Whistleblower Protection
+AcmeTech provides a confidential ethics hotline for employees to report suspected violations of this Code of Conduct or applicable laws. Reports may be made anonymously. AcmeTech strictly prohibits retaliation against any employee who makes a good-faith report. Violations of this Code of Conduct may result in disciplinary action up to and including termination of employment.
+===============================
+Document ID: HR-007
+Category: HR Policies
+Title: Performance Review Process
+
+AcmeTech Solutions Performance Review Process
+Effective Date: January 1, 2026
+Policy Owner: People Operations
+
+Policy Statement
+AcmeTech Solutions is committed to providing all employees with regular, transparent, and actionable feedback on their performance. The performance review process is designed to align individual contributions with company goals, support employee development, and provide the basis for compensation decisions, promotions, and performance improvement plans.
+
+Review Cycle
+AcmeTech conducts formal performance reviews on a bi-annual schedule. Mid-year reviews take place in July and focus on progress toward established goals, identification of development needs, and course correction where necessary. Annual reviews take place in December and encompass a full assessment of performance against objectives, competency ratings, and calibration against career level expectations.
+
+Goal Setting
+At the beginning of each calendar year, employees work with their manager to establish three to five measurable goals aligned with department and company OKRs. Goals must follow the SMART framework and should be documented in the HR system no later than January 31. Goals may be updated during the mid-year review if business priorities shift significantly.
+
+Self-Assessment
+All employees are required to complete a written self-assessment prior to their review. The self-assessment should address progress against goals, strengths demonstrated, areas for development, and career aspirations. Self-assessments must be submitted no later than five business days before the scheduled review meeting.
+
+Manager Assessment and Rating
+Managers complete a written assessment of each direct report using the company's standard five-level rating scale: Unsatisfactory, Needs Improvement, Meets Expectations, Exceeds Expectations, and Outstanding. Ratings are subject to calibration by senior leadership to ensure consistency across teams. Calibration outcomes may differ from the manager's initial rating. Final ratings are communicated to employees no later than ten business days after the calibration session.
+
+Performance Improvement Plans
+Employees rated Unsatisfactory or Needs Improvement will be placed on a formal Performance Improvement Plan within 15 business days of their review. The plan will specify measurable targets, a review timeline of 60 to 90 days, and the consequences of failing to meet the targets. Employees on a Performance Improvement Plan are not eligible for promotion, internal transfer, or variable compensation increases during the plan period.
+===============================
+Document ID: HR-008
+Category: HR Policies
+Title: Internal Mobility Policy
+
+AcmeTech Solutions Internal Mobility Policy
+Effective Date: January 1, 2026
+Policy Owner: People Operations
+
+Policy Statement
+AcmeTech Solutions is committed to supporting the career growth of its employees by fostering a culture of internal mobility. This policy encourages employees to explore career opportunities within the organization, facilitating movement across departments, roles, and locations where it serves both the employee's career goals and business needs.
+
+Eligibility
+Employees must have completed a minimum of 12 months in their current role before applying for an internal transfer. Employees on a Performance Improvement Plan, under formal disciplinary review, or in their probationary period are not eligible for internal mobility until their situation is resolved. Exceptions may be granted by the Chief People Officer in rare circumstances.
+
+Application Process
+Eligible employees may view all open internal positions on AcmeTech's internal careers portal. Employees should notify their current manager before submitting a formal application to ensure transparency, though this notification is not a prerequisite. Applications must be submitted through the internal portal along with a cover letter and updated skills profile. HR will acknowledge receipt within three business days.
+
+Interview and Selection
+Internal candidates will go through the same interview and assessment process as external candidates. Hiring managers may not discriminate against or give preferential treatment to internal candidates on the basis of their current department or team. All internal candidates will receive interview feedback within five business days of the final interview.
+
+Transition Period
+Employees accepted for internal transfers must provide their current team with a minimum of four weeks transition notice. The outgoing manager and the hiring manager will agree on a handover plan to minimize disruption. Compensation changes associated with the new role will take effect on the first day in the new position.
+
+Career Development Support
+The HR team and hiring manager will work with the newly transferred employee to establish a 90-day onboarding plan for the new role. The employee's career development goals will be revisited and updated in the HR system within 30 days of the transfer. AcmeTech provides financial support for any training or certification needed to support the transition.
+===============================
+Document ID: HR-009
+Category: HR Policies
+Title: Learning and Development Policy
+
+AcmeTech Solutions Learning and Development Policy
+Effective Date: January 1, 2026
+Policy Owner: People Operations
+
+Policy Statement
+AcmeTech Solutions invests in the continuous learning and professional development of its employees. This Learning and Development Policy outlines the resources, benefits, and processes available to employees who wish to develop new skills, advance in their careers, or obtain professional certifications.
+
+Annual Learning Budget
+All full-time employees are eligible for an annual learning and development budget of $2,000 per calendar year. This budget may be used for external courses, professional certifications, industry conferences, books, and learning platform subscriptions. Part-time employees receive a pro-rated budget based on contracted hours. Unused budget does not carry over to the following year.
+
+Approval Process
+Employees must submit a learning request through the HR self-service portal before making any purchase using the learning and development budget. Requests should include the name of the course or resource, the provider, cost, and a brief explanation of how the learning supports current or future role responsibilities. Managers are expected to approve or decline requests within five business days. Approved expenses may be reimbursed through the standard expense management system upon submission of a receipt.
+
+Company-Sponsored Programs
+AcmeTech sponsors several structured learning programs including the Leadership Accelerator Program for high-potential employees, the Technical Excellence Series for engineering staff, and functional skills workshops hosted by external facilitators. Participation in company-sponsored programs is coordinated by the HR team and does not count against the individual learning and development budget.
+
+Study Leave
+Employees pursuing accredited qualifications relevant to their role may apply for study leave of up to five days per year, subject to manager approval. Study leave is paid and may be used to prepare for examinations or attend mandatory in-person sessions. Requests must be submitted no later than 20 business days in advance.
+
+Return on Investment and Obligations
+Employees who receive company-sponsored learning benefits of more than $5,000 in a 12-month period may be required to sign a learning agreement that includes a clawback provision. Under this provision, employees who leave AcmeTech within 12 months of completing a company-funded qualification may be required to repay a portion of the cost.
+===============================
+Document ID: HR-010
+Category: HR Policies
+Title: Health Insurance Policy
+
+AcmeTech Solutions Employee Health Insurance Policy
+Effective Date: January 1, 2026
+Policy Owner: People Operations and Benefits Administration
+
+Policy Statement
+AcmeTech Solutions provides comprehensive health insurance coverage to all eligible full-time employees as part of its total compensation package. This document outlines the insurance plans available, employee contribution requirements, enrollment procedures, and benefit coverage details.
+
+Eligible Employees
+All full-time employees working 30 or more hours per week are eligible for health insurance coverage beginning on the first day of the month following their hire date. Employees may also enroll eligible dependents, including legal spouses, domestic partners, and dependent children up to the age of 26.
+
+Available Plans
+AcmeTech offers three plan tiers through its insurance carrier partnership: the Standard Plan, the Enhanced Plan, and the Premium Plan. The Standard Plan covers 80% of in-network medical costs after a $1,500 annual deductible. The Enhanced Plan covers 90% of in-network medical costs after a $750 deductible and includes dental and vision coverage. The Premium Plan covers 100% of in-network medical costs after a $250 deductible and includes enhanced dental, vision, and mental health benefits.
+
+Employee Contributions
+AcmeTech contributes 80% of the monthly premium for the Standard Plan for all eligible employees. Employee contributions for the Enhanced and Premium Plans vary based on coverage tier and are deducted from bi-weekly paychecks on a pre-tax basis. Dependent coverage is available at an additional cost to the employee.
+
+Enrollment and Changes
+Open enrollment takes place each year during the month of October, with coverage changes effective January 1. Outside of open enrollment, employees may make changes to their coverage within 30 days of a qualifying life event, including marriage, divorce, birth or adoption of a child, or loss of coverage under another plan. Enrollment changes must be submitted through the HR benefits portal.
+
+Mental Health and Wellness Benefits
+All health insurance plans include coverage for mental health services, including therapy, psychiatric consultations, and substance use treatment. AcmeTech also provides all employees with access to the HealthMind employee assistance program, which offers confidential counseling services, financial wellness support, and well-being resources at no cost.
+===============================
+Document ID: HR-011
+Category: HR Policies
+Title: Disciplinary Action Policy
+
+AcmeTech Solutions Disciplinary Action Policy
+Effective Date: January 1, 2026
+Policy Owner: People Operations and Legal
+
+Policy Statement
+AcmeTech Solutions is committed to maintaining a productive, respectful, and compliant workplace. This Disciplinary Action Policy establishes a fair and consistent framework for addressing employee conduct, performance, or compliance violations. AcmeTech follows a progressive disciplinary process while reserving the right to apply immediate serious consequences when warranted.
+
+Progressive Discipline Steps
+Step 1 – Verbal Warning: A documented verbal warning is issued for a first or minor policy violation. The warning is recorded in the employee's file and reviewed during the next performance cycle. Step 2 – Written Warning: A formal written warning is issued if the behavior or performance issue persists after a verbal warning, or for a more serious initial offense. The written warning specifies the nature of the violation, required corrective actions, and the timeline for improvement. Step 3 – Performance Improvement Plan: Employees who do not demonstrate sufficient improvement following a written warning may be placed on a formal Performance Improvement Plan. Step 4 – Termination: Employment may be terminated if the employee fails to meet the targets outlined in a PIP or if a new serious violation occurs while on an active disciplinary record.
+
+Gross Misconduct
+Certain actions constitute gross misconduct and may result in immediate termination without progression through prior disciplinary steps. Examples of gross misconduct include theft, fraud, physical violence, serious harassment or discrimination, deliberate breach of data security obligations, or any action that places the company or its employees at significant risk.
+
+Employee Rights
+Employees subject to disciplinary proceedings have the right to be informed of the allegations, to respond in writing or verbally prior to a formal decision, and to bring a colleague or HR representative to any disciplinary meeting. Decisions may be appealed through the formal grievance process within 10 business days of the decision.
+
+Documentation and Confidentiality
+All disciplinary records are maintained confidentially in the employee's personnel file. Active disciplinary records are reviewed after 12 months. Records may be expunged from active consideration after 24 months if no further violations occur, at the discretion of HR.
+===============================
+Document ID: HR-012
+Category: HR Policies
+Title: Grievance Policy
+
+AcmeTech Solutions Employee Grievance Policy
+Effective Date: January 1, 2026
+Policy Owner: People Operations
+
+Policy Statement
+AcmeTech Solutions is committed to providing employees with a fair and effective process for raising workplace concerns. This Grievance Policy outlines how employees may formally raise a grievance and how the company will respond. AcmeTech views the resolution of genuine workplace concerns as a priority and will ensure all grievances are handled with confidentiality, objectivity, and respect.
+
+Scope
+This policy applies to all employees and covers concerns related to workplace treatment, policy application, management conduct, working conditions, benefits administration, or any other employment-related matter. This policy does not apply to complaints that fall under the Disciplinary Action Policy or to matters that are more appropriately handled through the Ethics Hotline.
+
+Informal Resolution
+Before submitting a formal grievance, employees are encouraged to attempt informal resolution by discussing the concern with their manager or HR Business Partner. Many workplace issues can be resolved quickly through direct conversation. Employees who are uncomfortable raising the concern informally, or whose informal attempt was unsuccessful, may proceed to a formal grievance.
+
+Formal Grievance Submission
+Employees must submit a formal grievance in writing through the HR portal, detailing the nature of the concern, relevant dates, and any supporting evidence. The grievance will be acknowledged within three business days of submission. An investigation will be conducted by HR and, where appropriate, a neutral internal or external party. Employees will be kept informed of progress and a written outcome will be provided within 30 business days.
+
+Right of Appeal
+If an employee is not satisfied with the outcome of a formal grievance, they may submit a written appeal within 10 business days of receiving the outcome. Appeals are reviewed by the Chief People Officer or a designated senior leader not previously involved in the matter. The appeal outcome is final within AcmeTech's internal process.
+
+Anti-Retaliation
+AcmeTech strictly prohibits any form of retaliation against an employee who has raised a grievance in good faith. Any employee found to have engaged in retaliation will be subject to disciplinary action.
+===============================
+Document ID: HR-013
+Category: HR Policies
+Title: Diversity, Equity, and Inclusion Policy
+
+AcmeTech Solutions Diversity, Equity, and Inclusion Policy
+Effective Date: January 1, 2026
+Policy Owner: People Operations
+
+Policy Statement
+AcmeTech Solutions believes that a diverse, equitable, and inclusive workforce is essential to our long-term success. This policy reflects AcmeTech's commitment to creating a workplace where all employees feel valued, respected, and empowered to contribute their unique perspectives. We recognize that diversity extends beyond visible characteristics and encompasses a wide range of backgrounds, experiences, and viewpoints.
+
+Core Commitments
+AcmeTech is committed to equitable hiring and promotion practices free from bias. We maintain pay equity practices and conduct annual pay equity audits to identify and address any unjustified disparities. We commit to providing reasonable accommodations for employees with disabilities. We actively foster an inclusive culture through education, employee resource groups, and leadership accountability.
+
+Hiring and Promotion
+All job postings will include inclusive language and will be distributed through diverse sourcing channels. Interview panels must include diverse representation where possible. Promotion decisions must be supported by documented performance and competency evidence, reviewed by HR to ensure consistency and equity.
+
+Employee Resource Groups
+AcmeTech supports and provides resources for employee-led Employee Resource Groups (ERGs), including but not limited to groups focused on gender diversity, racial equity, LGBTQ+ inclusion, disability advocacy, and caregivers. ERGs receive an annual operating budget and may host company-sponsored events with HR coordination.
+
+Manager Accountability
+People managers are expected to complete annual DEI training provided by the company. Manager performance reviews include an assessment of inclusive leadership behaviors. Managers who demonstrate patterns of behavior inconsistent with this policy will be subject to performance management.
+
+Reporting and Accountability
+AcmeTech publishes an annual DEI report summarizing workforce composition data, ERG participation, hiring funnel diversity metrics, and progress against DEI goals. This report is shared with all employees and reviewed by the executive leadership team and board annually.
+===============================
+Document ID: HR-014
+Category: HR Policies
+Title: Probationary Period Policy
+
+AcmeTech Solutions Probationary Period Policy
+Effective Date: January 1, 2026
+Policy Owner: People Operations
+
+Policy Statement
+AcmeTech Solutions uses a probationary period for all new employees to allow both the employee and the organization to assess fit and performance before confirming permanent employment. This policy outlines the duration, expectations, and outcomes of the probationary period.
+
+Duration
+The standard probationary period is 90 days from the employee's start date. For senior leadership roles at Director level and above, the probationary period is extended to 180 days. The probationary period may be extended for an additional 30 days by mutual agreement between the manager and HR if additional time is needed to assess performance.
+
+Expectations During Probation
+During the probationary period, new employees are expected to complete all required onboarding activities, demonstrate the competencies and behaviors required for their role, and meet any specific performance milestones established in their onboarding plan. Managers are expected to provide structured feedback at 30, 60, and 90 days through formal check-in meetings documented in the HR system.
+
+Leave During Probation
+Employees in their probationary period accrue annual leave but may not take leave without specific HR approval. Sick leave may be taken as required. Any absence of five or more consecutive days may result in the probationary period being extended by the length of the absence.
+
+Completion of Probation
+Upon successful completion of the probationary period, the employee's status is confirmed as permanent. The manager will communicate this formally in a written confirmation letter sent through the HR portal. Salary reviews associated with successful completion will be processed in the next available payroll cycle.
+
+Termination During Probation
+Employment may be terminated during the probationary period with one week's written notice if performance or conduct does not meet expectations. Termination during probation does not require progression through the standard disciplinary process, though HR must be consulted before any termination decision is made.
+===============================
+Document ID: HR-015
+Category: HR Policies
+Title: Employee Referral Policy
+
+AcmeTech Solutions Employee Referral Program Policy
+Effective Date: January 1, 2026
+Policy Owner: People Operations and Talent Acquisition
+
+Policy Statement
+AcmeTech Solutions values employee referrals as one of the most effective channels for attracting high-quality talent. This Employee Referral Policy outlines the referral bonus program, eligibility requirements, and the process for submitting and tracking referrals.
+
+Eligibility
+All permanent full-time and part-time employees are eligible to participate in the referral program. HR employees directly involved in the hiring process for a specific role are not eligible to receive a referral bonus for that role. Contractors, interns, and employees on active Performance Improvement Plans are not eligible to participate.
+
+Referral Process
+Employees wishing to refer a candidate must submit the referral through the AcmeTech internal careers portal before the candidate applies independently. Late referrals submitted after the candidate has already applied will not be eligible for a bonus. The referral submission must include the candidate's full name, contact information, and the position being referred for.
+
+Referral Bonus Structure
+Referrals that result in a successful hire are eligible for a referral bonus paid to the referring employee. The bonus amount is $2,500 for non-technical roles and $4,000 for technical roles at the Engineer, Senior Engineer, and Product Manager level. For Director-level and above positions, the referral bonus is $7,500. Bonuses are paid in two installments: 50% upon the referred candidate's hire date and 50% upon the referred candidate's successful completion of the 90-day probationary period.
+
+Conditions
+The referral bonus is not payable if the referring employee has left AcmeTech before either installment date. Both the referring employee and the referred candidate must be employed at AcmeTech at the time of each installment payment. Referral bonuses are subject to applicable tax withholding and will be included in the referring employee's paycheck.
+
+Program Integrity
+AcmeTech reserves the right to modify, suspend, or terminate the referral program at any time. Submission of false referrals or manipulation of the program may result in disciplinary action.
+===============================

@@ -1,0 +1,14 @@
+langchain
+langchain-community
+langchain-mistralai
+langchain-huggingface
+langchain-chroma
+langchain-core
+faiss-cpu
+sentence-transformers
+chromadb
+plotly
+umap-learn
+pandas
+numpy
+kaleido

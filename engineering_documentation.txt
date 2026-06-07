@@ -1,0 +1,423 @@
+===============================
+Document ID: ENG-001
+Category: Engineering Documentation
+Title: Kubernetes Deployment Guide
+
+AcmeTech Solutions Kubernetes Deployment Guide
+Version: 3.2
+Last Updated: March 2026
+Owner: Platform Engineering Team
+
+Overview
+This guide provides AcmeTech's standardized procedures for deploying applications to our Kubernetes clusters. All microservices deployed to production must adhere to the patterns and standards described in this document. Deviation from these standards requires written approval from the Engineering Director and the Platform Engineering team.
+
+Cluster Architecture
+AcmeTech operates three Kubernetes clusters: development, staging, and production. Each cluster runs on AWS Elastic Kubernetes Service (EKS). The production cluster spans three availability zones for high availability. Node groups are separated by workload type: general-purpose compute nodes, memory-optimized nodes for database-adjacent services, and spot instance node pools for batch workloads. All clusters enforce pod security admission policies at the restricted level.
+
+Deployment Configuration
+All service deployments must be defined using Helm charts stored in the AcmeTech infrastructure monorepo. Raw Kubernetes manifests are not permitted in the production cluster. Helm values files must be stored per environment and reviewed before each deployment. Deployments must specify resource requests and limits for both CPU and memory. Containers without resource constraints will be rejected by the admission webhook.
+
+Rolling Updates and Rollback
+AcmeTech uses rolling update strategies with a maximum surge of 25% and maximum unavailability of 0 for all production deployments. This ensures zero downtime during standard deployments. Automated rollback is configured in the CI/CD pipeline and will trigger if the deployment health check fails within five minutes of the rollout completing. Manual rollback can be executed using the helm rollback command referencing the prior release revision.
+
+Health Checks
+All services must implement liveness and readiness probes. Readiness probes should check that the service can handle traffic, including validating database connectivity and downstream service availability. Liveness probes should verify that the process has not entered an unrecoverable state. Probe failure thresholds and timeouts must be tuned to reflect the service's actual startup and response characteristics. Services without configured probes will be flagged during deployment validation.
+
+Namespace and RBAC Standards
+Each microservice operates in a dedicated Kubernetes namespace corresponding to its functional domain. Cross-namespace service communication is restricted by default and requires a formal network policy exception request. Role-based access control is enforced through cluster-level RBAC policies. Engineers have read-only access to production namespaces; write operations in production require automated pipeline execution or a formal break-glass procedure.
+===============================
+Document ID: ENG-002
+Category: Engineering Documentation
+Title: API Architecture Standards
+
+AcmeTech Solutions API Architecture Standards
+Version: 2.1
+Last Updated: February 2026
+Owner: Platform Engineering Team
+
+Overview
+This document establishes the standards for designing, building, and versioning APIs at AcmeTech Solutions. All internal and external-facing APIs must comply with these standards to ensure consistency, security, and maintainability across the platform.
+
+API Design Principles
+AcmeTech follows RESTful API design principles for all HTTP APIs. API resources should be named using plural nouns representing the domain entity. HTTP methods must semantically match the operation: GET for retrieval, POST for creation, PUT for full update, PATCH for partial update, and DELETE for removal. APIs should be designed to be idempotent where possible, especially for mutation operations.
+
+Request and Response Standards
+All API requests and responses must use JSON as the data format. Response payloads must follow AcmeTech's standard envelope structure including a data field containing the response content, a metadata field with pagination information where applicable, and an errors array for validation or processing failures. HTTP status codes must be used semantically: 200 for success, 201 for resource creation, 400 for client errors, 401 for unauthenticated requests, 403 for authorization failures, 404 for not found, 422 for validation errors, and 500 for server errors.
+
+API Versioning
+All external-facing APIs must include a version identifier in the URL path as v1, v2, etc. New API versions must be introduced when changes are not backwards compatible. AcmeTech maintains a minimum of two major API versions simultaneously in production. Deprecation of an API version requires a minimum of 180-day advance notice to customers, communicated through the customer changelog and direct notification for impacted accounts.
+
+Authentication and Authorization
+All API endpoints, including internal service-to-service APIs, must enforce authentication. External APIs use OAuth 2.0 with JWT bearer tokens. Internal service-to-service communication uses mTLS with service account tokens issued by the cluster certificate authority. Public endpoints that do not require authentication must be explicitly documented and approved by the Security team.
+
+Rate Limiting
+All APIs must implement rate limiting at the customer or service account level. Default rate limits for external APIs are 1,000 requests per minute per customer. Higher rate limits may be granted by customer tier and must be documented in the API rate limits configuration in the platform control plane. Rate limit responses must return HTTP 429 with a Retry-After header indicating when the client may retry.
+===============================
+Document ID: ENG-003
+Category: Engineering Documentation
+Title: Microservice Communication Standards
+
+AcmeTech Solutions Microservice Communication Standards
+Version: 1.4
+Last Updated: January 2026
+Owner: Platform Engineering Team
+
+Overview
+This document defines the patterns and standards for communication between microservices in AcmeTech's platform. Consistent service communication patterns are critical for system reliability, observability, and maintainability. All new microservices must comply with these standards from the initial design phase.
+
+Synchronous Communication
+For synchronous request-response communication between microservices, AcmeTech uses gRPC over HTTP/2 for internal service-to-service calls. gRPC provides strong typing through Protocol Buffers, efficient binary serialization, and first-class support for streaming use cases. Service definitions must be maintained in the AcmeTech proto repository and reviewed by the Platform Engineering team before release. REST over HTTP/1.1 is permitted for external-facing APIs and for cases where the consuming service is not hosted on AcmeTech's internal cluster.
+
+Asynchronous Communication
+Asynchronous event-driven communication between microservices uses Apache Kafka as the message broker. Services that produce events must publish to well-defined Kafka topics with documented schema definitions registered in the Schema Registry. Consumers must implement idempotent message processing to handle potential duplicate delivery. Event schemas follow the CloudEvents specification. Topic configuration, including partition count and retention, must be reviewed and approved by the Platform Engineering team.
+
+Circuit Breaker Pattern
+All synchronous service calls must implement the circuit breaker pattern using the platform-provided service mesh capabilities. Circuit breakers are configured to open after three consecutive failures within a 30-second window and to attempt recovery after 60 seconds. Services must expose metrics that enable the circuit breaker state to be observed in the monitoring dashboard. Engineering teams must test circuit breaker behavior as part of their service integration testing.
+
+Service Discovery and Load Balancing
+Service discovery uses the Kubernetes DNS-based service discovery mechanism. Services must register with the cluster DNS through their Kubernetes Service resource. External traffic is routed through the AcmeTech API Gateway, which handles load balancing, SSL termination, and request routing. Services must not implement custom load balancing logic or connect directly to backend service instances by IP address.
+
+Timeout and Retry Policies
+All outbound service calls must define an explicit timeout. Default timeouts are 5 seconds for synchronous API calls and 30 seconds for data-intensive operations. Retry logic must implement exponential backoff with jitter to prevent synchronized retry storms. Maximum retry attempts are limited to three. Retry budgets must be configured to prevent cascading retries from overwhelming downstream services during degraded conditions.
+===============================
+Document ID: ENG-004
+Category: Engineering Documentation
+Title: Incident Management Process
+
+AcmeTech Solutions Incident Management Process
+Version: 2.0
+Last Updated: April 2026
+Owner: Site Reliability Engineering Team
+
+Overview
+This document describes the AcmeTech incident management process, including severity classification, escalation procedures, communication protocols, and post-incident review requirements. A consistent, well-practiced incident management process is critical to minimizing the customer impact of production issues and accelerating recovery.
+
+Incident Severity Classification
+AcmeTech uses four severity levels. SEV1 (Critical): Complete platform outage or data loss affecting all customers. Response required within 5 minutes. SEV2 (High): Major functionality unavailable or performance severely degraded for a significant portion of customers. Response required within 15 minutes. SEV3 (Medium): Partial functionality loss or degraded performance affecting a subset of customers. Response required within 1 hour. SEV4 (Low): Minor issues with limited customer impact or workarounds available. Response required within 4 business hours.
+
+Incident Response Roles
+Each incident has a designated Incident Commander who is responsible for coordinating the response, managing communication, and driving the incident to resolution. The Incident Commander is typically the on-call engineer who first acknowledges the alert. Complex or prolonged incidents may have the on-call senior engineer assume the Incident Commander role. A Communication Lead is responsible for updating the internal incident channel and drafting customer-facing status page updates. Technical responders investigate root cause and implement mitigation or fix.
+
+Escalation Procedure
+On-call engineers are expected to acknowledge PagerDuty alerts within 5 minutes. If the incident is not acknowledged within 10 minutes, the alert escalates to the backup on-call engineer. SEV1 and SEV2 incidents automatically notify the Engineering Director and VP of Engineering. Customer-impacting incidents require a status page update within 30 minutes of declaration. Customers subscribed to status updates receive automatic notifications when incidents are declared and resolved.
+
+Communication Standards
+All incident communications must be centralized in the designated incident Slack channel. Communication must be factual, timely, and free of speculation. Status page updates should be posted at minimum every 30 minutes for active SEV1 and SEV2 incidents. Customer-facing messages must be reviewed by the Communication Lead before posting. Speculation about root cause should not be included in customer communications until the root cause is confirmed.
+
+Post-Incident Review
+All SEV1 incidents and any SEV2 incidents with customer impact require a blameless post-incident review within five business days. The review document must cover the timeline of events, root cause analysis, customer impact assessment, contributing factors, and action items with owners and due dates. Action items from post-incident reviews are tracked by the SRE team and reviewed monthly for completion status.
+===============================
+Document ID: ENG-005
+Category: Engineering Documentation
+Title: Monitoring and Alerting Setup
+
+AcmeTech Solutions Monitoring and Alerting Setup Guide
+Version: 1.6
+Last Updated: February 2026
+Owner: Site Reliability Engineering Team
+
+Overview
+This document describes the monitoring and alerting standards for all services running in AcmeTech's production environment. Comprehensive monitoring is essential for proactive detection of degradation and rapid incident response. All engineering teams are responsible for implementing monitoring and alerting as a first-class deliverable alongside their service implementations.
+
+Metrics Collection
+AcmeTech uses Prometheus for metrics collection. All services must expose a /metrics endpoint in Prometheus exposition format. Key metrics that every service must expose include: request rate, error rate, request latency (p50, p95, p99), resource utilization (CPU and memory), and any service-specific business metrics defined by the engineering team. Metrics must be properly labeled with service name, version, environment, and availability zone dimensions.
+
+Dashboards and Visualization
+Grafana is the standard dashboarding platform. Each microservice must have a dedicated Grafana dashboard that visualizes the service's key metrics. The dashboard must include golden signals: latency, traffic, errors, and saturation. Service dashboards are linked from AcmeTech's internal service catalog, enabling any engineer to quickly access operational visibility for any service. Dashboard templates are provided by the SRE team to ensure consistent structure.
+
+Alerting Standards
+Alerts must be defined in the AcmeTech alerting repository as code using Prometheus alert rules. All alerts must include severity labels, a human-readable description, a runbook link, and a link to the relevant Grafana dashboard. Alerts should fire on symptoms affecting customers rather than on causes. Alert thresholds must be tuned against baseline traffic patterns to minimize false positives. The SRE team reviews alert configurations for all new services as part of the pre-production readiness review.
+
+Alert Routing and On-Call
+PagerDuty is used for alert routing and on-call management. Critical alerts are routed directly to the on-call engineer with an immediate phone call escalation after 5 minutes of non-acknowledgment. Warning-level alerts are sent via Slack notification to the team's alert channel. Each engineering team maintains an on-call rotation schedule in PagerDuty with a primary and backup engineer designated for each week.
+
+Synthetic Monitoring
+In addition to metrics-based alerting, AcmeTech operates synthetic monitoring through scheduled API health checks that validate end-to-end system functionality from external vantage points. Synthetic checks run every minute for all customer-facing API endpoints. Failures trigger immediate alerting through the same PagerDuty routing as production alerts. Synthetic monitoring results are included in the weekly SRE reliability report.
+===============================
+Document ID: ENG-006
+Category: Engineering Documentation
+Title: Database Backup Procedures
+
+AcmeTech Solutions Database Backup and Recovery Procedures
+Version: 2.3
+Last Updated: March 2026
+Owner: Database Engineering Team
+
+Overview
+This document describes the backup strategy, schedule, retention policy, and recovery procedures for all production databases at AcmeTech Solutions. Data durability is a core operational requirement. All database systems must comply with the procedures described in this document.
+
+Database Inventory and Classification
+AcmeTech's production databases are classified into three data criticality tiers. Tier 1 (Business Critical): Databases containing customer data, financial transactions, and authentication records. Tier 2 (Operationally Important): Databases supporting analytics, reporting, and non-real-time processing. Tier 3 (Supporting): Internal tools databases, logging stores, and development-adjacent systems. Backup frequency and retention requirements vary by tier.
+
+Backup Schedule
+Tier 1 databases undergo continuous WAL (Write-Ahead Log) streaming replication to a standby replica in a separate availability zone and a full snapshot backup every 6 hours to encrypted S3 storage. Point-in-time recovery is available for all Tier 1 databases for up to 35 days. Tier 2 databases are backed up daily with 14-day retention. Tier 3 databases are backed up weekly with 7-day retention.
+
+Backup Verification
+Automated backup verification runs weekly for all Tier 1 and Tier 2 databases. Verification consists of restoring the most recent backup to a dedicated recovery test environment and running a schema validation and data integrity check script. Verification results are logged to the SRE monitoring dashboard. Any backup verification failure must be treated as a SEV2 incident and investigated immediately by the Database Engineering team.
+
+Recovery Procedures
+In the event of data loss or database corruption, the Database Engineering team initiates the recovery procedure according to the database's tier and the type of failure. For Tier 1 databases, the primary path is promotion of the standby replica, which can be completed within 60 seconds for most failure scenarios. Point-in-time recovery from snapshot is used when data corruption extends to the replica. Recovery time objectives (RTO) are 15 minutes for Tier 1, 4 hours for Tier 2, and 24 hours for Tier 3.
+
+Access Controls
+Database credentials are managed through AcmeTech's secret management system. No hardcoded credentials are permitted in application code or configuration files. Production database access for engineers requires a formal access request, approval by the Engineering Director, and time-limited credentials issued through the break-glass procedure. All production database queries executed by engineers are logged and reviewed weekly by the security team.
+===============================
+Document ID: ENG-007
+Category: Engineering Documentation
+Title: Authentication Architecture
+
+AcmeTech Solutions Authentication Architecture
+Version: 2.0
+Last Updated: January 2026
+Owner: Security Engineering Team
+
+Overview
+This document describes the authentication architecture for AcmeTech's platform, covering both customer-facing authentication and internal service-to-service authentication. A robust, layered authentication architecture is foundational to the security of AcmeTech's systems and customer data.
+
+Customer Authentication
+AcmeTech customers authenticate to the platform using OAuth 2.0 with the Authorization Code Flow with PKCE for web and mobile applications. Upon successful authentication, the identity provider issues a short-lived JSON Web Token (JWT) with a 15-minute expiration and a refresh token with a 30-day expiration. JWTs are signed using RS256 and validated by the API Gateway before any request is forwarded to backend services. Token rotation is enforced on every refresh token use.
+
+Identity Provider
+AcmeTech operates its own identity provider built on the open-source Keycloak platform, customized for our multi-tenant architecture. Each customer organization is provisioned as a separate Keycloak realm, enabling complete logical isolation of authentication contexts. The identity provider supports username/password authentication, SSO via SAML 2.0 and OIDC federation with corporate identity providers, and TOTP-based multi-factor authentication.
+
+Multi-Factor Authentication
+MFA is required for all AcmeTech administrative console users and is strongly recommended for all end users. MFA enforcement at the customer organization level can be configured by the organization's administrator. AcmeTech supports TOTP-based authenticators and WebAuthn hardware security keys. SMS-based MFA is not supported due to known vulnerabilities associated with SIM swapping attacks.
+
+Service-to-Service Authentication
+Internal microservice-to-microservice communication is authenticated using mutual TLS (mTLS). Each service is issued a short-lived X.509 certificate by the cluster certificate authority. Certificate rotation occurs every 24 hours and is managed automatically by the service mesh. Services validate peer certificates against the trusted CA bundle at connection establishment. Service accounts in Kubernetes are issued projected service account tokens with audience-restricted claims for additional authorization enforcement.
+
+Session Management
+Customer sessions are managed through the identity provider with activity-based session timeout after 60 minutes of inactivity and an absolute maximum session duration of 12 hours. Session revocation is propagated to the API Gateway token validation cache within 30 seconds of logout or administrative revocation. The authentication audit log captures all authentication events, including successful logins, failed attempts, MFA challenges, and session revocations.
+===============================
+Document ID: ENG-008
+Category: Engineering Documentation
+Title: CI/CD Deployment Process
+
+AcmeTech Solutions CI/CD Deployment Process
+Version: 3.0
+Last Updated: April 2026
+Owner: DevOps and Platform Engineering Teams
+
+Overview
+This document describes AcmeTech's continuous integration and continuous delivery pipeline, including pipeline stages, quality gates, deployment automation, and environment promotion procedures. A well-governed CI/CD pipeline is critical to delivering software reliably, safely, and at velocity.
+
+Pipeline Stages
+AcmeTech's CI/CD pipeline is implemented in GitHub Actions and consists of six stages. Stage 1 – Code Validation: Linting, static analysis, and security scanning using Semgrep and Snyk. Stage 2 – Unit Tests: Execution of the service's unit test suite with a minimum 80% code coverage requirement. Stage 3 – Build: Docker image build and push to the AcmeTech container registry with image signing. Stage 4 – Integration Tests: Service deployed to the CI environment and run against the integration test suite. Stage 5 – Staging Deployment: Automated deployment to the staging environment with smoke test validation. Stage 6 – Production Deployment: Gated deployment to production requiring an additional approval step for changes classified as high-risk.
+
+Branch Strategy
+AcmeTech follows a trunk-based development model. All development work is performed on short-lived feature branches created from the main branch. Feature branches must be reviewed and approved by at least one peer engineer before merging. Direct commits to the main branch are blocked. The main branch deploys automatically to the staging environment. Production deployments are triggered manually by a designated release engineer after staging validation.
+
+Deployment Approvals
+Standard production deployments require approval from the engineer's team lead or a designated release engineer. Deployments classified as high-risk based on the risk assessment rubric require additional approval from the Engineering Director. The risk assessment rubric evaluates changes based on their blast radius, rollback complexity, dependency on external systems, and changes to data schemas or API contracts.
+
+Deployment Windows
+Standard production deployments are permitted Monday through Thursday between 10 AM and 3 PM Pacific Time. Friday deployments require VP of Engineering approval. Deployments are prohibited on the day before and after a US federal holiday. Emergency deployments outside these windows can be approved by the on-call senior engineer using the emergency deployment procedure documented in the runbook.
+
+Rollback Procedures
+Every deployment must have a documented rollback plan before being approved. Automated rollback is triggered if post-deployment health checks fail within five minutes. Manual rollback can be executed through the deployment control panel. Data migrations that cannot be reversed must be flagged in the deployment plan and approved by the Engineering Director before deployment proceeds.
+===============================
+Document ID: ENG-009
+Category: Engineering Documentation
+Title: Production Release Checklist
+
+AcmeTech Solutions Production Release Checklist
+Version: 2.4
+Last Updated: March 2026
+Owner: Engineering Operations
+
+Overview
+This checklist must be completed by the release engineer and reviewed by the engineering team lead before any production deployment proceeds. The checklist ensures that all technical, operational, and communication requirements are satisfied prior to releasing changes to the production environment.
+
+Pre-Deployment Checklist
+
+Technical Readiness
+- All automated pipeline stages have passed including linting, unit tests, security scanning, and integration tests.
+- Code has been peer reviewed and approved by a minimum of one engineer.
+- Database migrations, if any, have been reviewed by the Database Engineering team and marked backward compatible or flagged for coordinated cutover.
+- API contract changes, if any, have been reviewed by the Platform Engineering team.
+- Feature flags are configured correctly in the feature flag management system.
+- The deployment has been successfully validated in the staging environment.
+- Rollback procedure has been documented and tested where applicable.
+
+Operational Readiness
+- Monitoring dashboards and alerting rules have been verified to be in place.
+- On-call engineer is aware of the deployment and has been briefed on what to watch for.
+- Any temporary elevated alerting thresholds have been configured for the expected post-deployment settling period.
+- Customer support team has been notified if the deployment involves user-visible changes.
+
+Communication Readiness
+- Internal deployment notification has been posted to the #deployments Slack channel.
+- Status page has been updated if the deployment involves planned maintenance or expected brief disruption.
+- Customer communications, if required, have been reviewed and are ready to send.
+
+Deployment Execution
+- Deployment initiated by designated release engineer.
+- Health checks monitored for minimum 10 minutes post-deployment.
+- Key metrics reviewed in Grafana dashboard for anomalies.
+- Rollback procedure confirmed not needed.
+- Post-deployment summary posted to #deployments channel.
+
+Post-Deployment Sign-Off
+Release Engineer sign-off required. Team Lead sign-off required. Engineering Director sign-off required for high-risk deployments.
+===============================
+Document ID: ENG-010
+Category: Engineering Documentation
+Title: Logging Standards
+
+AcmeTech Solutions Logging Standards
+Version: 1.5
+Last Updated: February 2026
+Owner: Platform Engineering and SRE Teams
+
+Overview
+This document defines the standards for application logging at AcmeTech Solutions. Consistent, well-structured logging is essential for debugging, incident investigation, and audit trail requirements. All services are required to implement logging in accordance with these standards.
+
+Log Format
+All application logs must be emitted in structured JSON format. Each log entry must include the following required fields: timestamp in ISO 8601 UTC format, log level, service name, version, environment, correlation ID for request tracing, and message. Optional fields that should be included when relevant include user ID, customer organization ID, request path, HTTP status code, and duration in milliseconds.
+
+Log Levels
+AcmeTech services must use five standard log levels. DEBUG: Detailed diagnostic information useful during development. Not enabled in production by default. INFO: Normal operational events including service startup, configuration loaded, and successful significant operations. WARN: Conditions that are unexpected but not causing failure, such as retries or degraded mode operation. ERROR: Failures that require attention but from which the service can recover. FATAL: Conditions from which the service cannot recover, resulting in process termination.
+
+Sensitive Data
+Personally identifiable information, authentication credentials, API keys, and financial account numbers must never appear in log output. Services must implement a log sanitization layer that scrubs sensitive fields from log entries before emission. The list of sensitive field names that must be scrubbed is maintained in the platform logging library and must be used by all services. The security team conducts quarterly audits of log output for sensitive data leakage.
+
+Log Aggregation and Retention
+All service logs are collected by Fluentd agents running as DaemonSets in each Kubernetes cluster and forwarded to Elasticsearch for indexing and querying. Logs are retained for 90 days in the hot tier for active querying and for 12 months in the cold tier for compliance purposes. Tier 1 service logs are retained for 24 months. Log access is controlled by role-based access policies in the logging platform.
+
+Correlation and Distributed Tracing
+Each incoming request must generate a unique correlation ID that is propagated across all service calls within the same request scope using the X-Correlation-ID HTTP header. All log entries related to a request must include this correlation ID to enable cross-service log correlation during incident investigation. AcmeTech uses OpenTelemetry for distributed tracing, and trace IDs are automatically included in log entries by the platform logging library.
+===============================
+Document ID: ENG-011
+Category: Engineering Documentation
+Title: Code Review Standards
+
+AcmeTech Solutions Code Review Standards
+Version: 1.3
+Last Updated: January 2026
+Owner: Engineering Operations
+
+Overview
+Code review is a critical quality gate in AcmeTech's software development process. This document defines the expectations, responsibilities, and best practices for code review at AcmeTech. All pull requests must pass code review before merging to the main branch.
+
+Review Requirements
+All code changes merged to the main branch must be reviewed and approved by a minimum of one engineer who did not author the change. Changes to shared platform infrastructure, public APIs, or database schemas require a minimum of two approvals, including one from the Platform Engineering or Database Engineering team respectively. Security-sensitive changes require review and approval from the Security Engineering team.
+
+Reviewer Responsibilities
+Reviewers are expected to evaluate code for correctness, readability, maintainability, adherence to AcmeTech's coding standards, appropriate test coverage, and security considerations. Reviewers should provide actionable, specific, and respectful feedback. Reviews that consist solely of approvals without meaningful commentary will not be counted toward the approval requirement for high-complexity changes. Reviewers are expected to respond to pull requests within one business day.
+
+Author Responsibilities
+Authors must provide a clear pull request description that explains what changed, why the change was made, and how the change was tested. Authors must ensure their changes pass all automated checks before requesting review. Authors should address all reviewer comments before requesting re-review. When disagreeing with a reviewer comment, authors should discuss the concern openly and seek consensus rather than dismissing the feedback.
+
+Review Turnaround Expectations
+Standard pull requests should receive a first review within one business day. Pull requests that have been waiting for review for more than two business days without a response may be escalated to the team lead. Blocking reviews should be resolved within one business day of the response from the author. Engineering teams are expected to manage review workload as a team responsibility, not as an individual burden.
+
+Documentation and Tests
+All new features and behavior changes must be accompanied by appropriate unit and integration tests. Test coverage must not decrease as a result of a merged change unless explicitly approved by the Engineering Director. New or changed public-facing APIs must be documented before the pull request is approved. Updates to internal documentation, runbooks, or architecture diagrams should be included in the same pull request as the code change.
+===============================
+Document ID: ENG-012
+Category: Engineering Documentation
+Title: Data Privacy Engineering Standards
+
+AcmeTech Solutions Data Privacy Engineering Standards
+Version: 1.1
+Last Updated: February 2026
+Owner: Security and Engineering Teams
+
+Overview
+AcmeTech Solutions handles personal data belonging to customers and employees and is subject to applicable data protection regulations including GDPR, CCPA, and other jurisdictional requirements. This document establishes the engineering standards for data privacy, including data minimization, encryption, access controls, and data subject rights fulfillment.
+
+Data Inventory and Classification
+Engineering teams must maintain an up-to-date data inventory for all services that process personal data. The data inventory must be registered in AcmeTech's data governance platform and include the categories of personal data processed, the purpose of processing, the legal basis for processing, data retention periods, and third-party data sharing relationships. Data inventory updates must be submitted for each new feature that introduces new personal data processing.
+
+Encryption Requirements
+All personal data must be encrypted at rest using AES-256 and in transit using TLS 1.3. Database fields containing sensitive personal data categories, including financial data, health information, and government identification numbers, must be encrypted at the field level in addition to disk-level encryption. Encryption keys must be managed through AcmeTech's centralized key management service and rotated annually.
+
+Data Minimization
+Services must collect only the personal data necessary for the stated purpose. New data fields collecting personal data require a data minimization review by the Privacy Engineering team before deployment. Personal data must not be replicated to analytics systems, logging platforms, or monitoring tools except where specifically approved by the Privacy Engineering team and documented in the data inventory.
+
+Data Subject Rights
+AcmeTech's platform must support fulfillment of data subject rights requests including access, correction, deletion, and portability. Engineering teams must design services to support these rights from the initial architecture phase. Deletion workflows must propagate across all data stores where the personal data appears, including backups within the applicable retention window. Data subject rights requests received by the customer support team are tracked and must be fulfilled within 30 days.
+
+Privacy Impact Assessments
+Engineering teams must complete a Data Protection Impact Assessment before deploying any new feature that involves high-risk personal data processing, including profiling, biometric data, or large-scale processing of special category data. PIAs are reviewed by the Privacy Engineering team and must be approved before the feature proceeds to production deployment.
+===============================
+Document ID: ENG-013
+Category: Engineering Documentation
+Title: Disaster Recovery Procedures
+
+AcmeTech Solutions Disaster Recovery Procedures
+Version: 1.8
+Last Updated: April 2026
+Owner: Site Reliability Engineering Team
+
+Overview
+This document defines AcmeTech's disaster recovery procedures for responding to major infrastructure failures that exceed the scope of standard incident management. Disaster recovery events are declared when the primary production environment is severely degraded or unavailable due to infrastructure failure, data center events, or catastrophic incidents affecting multiple systems simultaneously.
+
+DR Declaration
+A disaster recovery event is declared by the VP of Engineering or CTO in coordination with the SRE team when a production outage is expected to last more than four hours or when data integrity is at risk. Upon DR declaration, the full incident response team is assembled immediately and the DR runbook is activated. The CEO, CFO, and Chief People Officer are notified within 30 minutes of DR declaration.
+
+Recovery Architecture
+AcmeTech operates a warm standby disaster recovery environment in a secondary AWS region. The standby environment runs a reduced capacity copy of the production infrastructure with database replicas receiving continuous streaming replication from the primary region. DNS failover to the DR environment can be completed within 15 minutes using Route 53 health checks and automated failover policies.
+
+RTO and RPO Targets
+AcmeTech's recovery objectives are defined as follows. Tier 1 services: Recovery Time Objective (RTO) of 1 hour, Recovery Point Objective (RPO) of 15 minutes. Tier 2 services: RTO of 4 hours, RPO of 1 hour. Tier 3 services: RTO of 24 hours, RPO of 24 hours. These targets are validated annually through disaster recovery testing exercises.
+
+DR Testing
+AcmeTech conducts annual disaster recovery tests to validate the effectiveness of DR procedures. The annual test involves a full failover to the DR environment during a low-traffic maintenance window. Test results, including actual RTO and RPO achieved, are documented and reviewed by the executive team. Any gaps against targets identified during testing result in mandatory remediation plans with completion dates set before the next annual test.
+
+DR Runbook
+The detailed step-by-step DR runbook is maintained in the SRE team's runbook repository and is accessible from multiple locations to ensure availability during a primary region failure. The runbook includes specific commands, configuration parameters, and validation steps for each phase of the recovery process. The runbook is reviewed and updated quarterly by the SRE team and after each DR event or test.
+===============================
+Document ID: ENG-014
+Category: Engineering Documentation
+Title: Security Vulnerability Management
+
+AcmeTech Solutions Security Vulnerability Management Process
+Version: 2.0
+Last Updated: March 2026
+Owner: Security Engineering Team
+
+Overview
+This document describes AcmeTech's process for identifying, classifying, prioritizing, and remediating security vulnerabilities in its software and infrastructure. A systematic vulnerability management program is essential to protecting AcmeTech's systems and customer data from exploitation.
+
+Vulnerability Discovery
+AcmeTech uses multiple channels to identify security vulnerabilities. Automated scanning: Snyk and Dependabot continuously scan application dependencies for known CVEs. Container image scanning: All Docker images are scanned for vulnerabilities during the CI/CD pipeline. Infrastructure scanning: Cloud infrastructure configuration is scanned using AWS Config and Security Hub. Penetration testing: Annual third-party penetration tests assess the attack surface of AcmeTech's external-facing systems. Bug bounty: AcmeTech operates a private bug bounty program for responsible disclosure of security findings.
+
+Severity Classification
+Vulnerabilities are classified using the CVSS scoring system. Critical (CVSS 9.0–10.0): Immediate action required. High (CVSS 7.0–8.9): Remediation required within 7 days. Medium (CVSS 4.0–6.9): Remediation required within 30 days. Low (CVSS 0.1–3.9): Remediation required within 90 days. Findings from penetration tests are classified using the same framework and tracked in the vulnerability management platform.
+
+Remediation Process
+Each identified vulnerability is assigned to an engineering team owner based on the affected system. Owners are responsible for developing and executing a remediation plan within the timeline corresponding to the vulnerability's severity. Remediation plans are tracked in the security vulnerability management platform. The Security Engineering team provides guidance and assistance for complex remediations. All remediations are verified through rescan before the ticket is closed.
+
+Exceptions and Risk Acceptance
+In cases where remediation within the standard timeline is not technically feasible, the engineering team may request an exception through the Security Engineering team. Exceptions must document the reason remediation is not feasible, the compensating controls in place, and an extended remediation plan with a defined deadline. Exceptions for Critical and High vulnerabilities require approval from the CISO.
+
+Security Metrics
+The Security Engineering team publishes a monthly vulnerability management dashboard that tracks mean time to remediation by severity, count of open vulnerabilities by severity, exception rate, and trend over time. This dashboard is reviewed by the engineering leadership team monthly and reported to the board annually.
+===============================
+Document ID: ENG-015
+Category: Engineering Documentation
+Title: Engineering Architecture Review Process
+
+AcmeTech Solutions Engineering Architecture Review Process
+Version: 1.2
+Last Updated: January 2026
+Owner: Platform Engineering Team
+
+Overview
+The Architecture Review process ensures that significant technical decisions at AcmeTech are evaluated by a cross-functional panel of senior engineers before implementation begins. This process prevents costly architectural mistakes, promotes reuse of existing platform capabilities, and ensures alignment with AcmeTech's technology strategy.
+
+When a Review Is Required
+An architecture review is required for any change that introduces a new technology or framework not currently in AcmeTech's approved technology stack; creates a new microservice or significantly modifies an existing service's boundaries; changes data storage technology or introduces a new database instance; modifies the API contract in a non-backwards-compatible way; or is estimated to require more than four weeks of engineering effort.
+
+Architecture Review Document
+Engineers proposing a significant change must complete an Architecture Review Document (ARD) using the standard template maintained in the Platform Engineering repository. The ARD must include a problem statement, proposed solution, alternatives considered, impact on existing systems, security implications, data model changes, API contract changes, operational requirements, and rollback plan.
+
+Review Panel
+The Architecture Review panel consists of the Engineering Director, two Staff Engineers or higher designated by the Engineering Director, a representative from the Security Engineering team, and a representative from the Platform Engineering team. The proposing engineer presents the ARD to the panel in a 60-minute review session. Panel members may request additional information or revisions before rendering a decision.
+
+Review Outcomes
+The review panel may approve the ARD as proposed, approve with conditions requiring specific modifications before implementation begins, or decline with documented feedback for revision. An approved ARD with conditions must address all specified conditions before proceeding. Declined ARDs may be resubmitted after revision. The proposing team may escalate a decline decision to the CTO within five business days.
+
+Architecture Decision Records
+All approved ARDs are published as Architecture Decision Records in the engineering knowledge base. ADRs serve as the authoritative record of significant architectural decisions and their rationale. Engineers encountering an existing architectural pattern are expected to review the relevant ADR before proposing changes to understand the reasoning behind current design choices.
+===============================

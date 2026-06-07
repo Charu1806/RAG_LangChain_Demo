@@ -1,0 +1,379 @@
+===============================
+Document ID: SUP-001
+Category: Customer Support Knowledge Base
+Title: Password Reset Guide
+
+Article: How to Reset Your AcmeTech Account Password
+Category: Account Access
+Last Updated: March 2026
+
+Overview
+If you have forgotten your AcmeTech account password or are having trouble signing in, this article guides you through the steps to reset your password and regain access to your account. Password resets can typically be completed in under two minutes.
+
+Self-Service Password Reset
+To reset your password using the self-service flow, navigate to the AcmeTech login page and click the "Forgot password?" link below the password field. Enter the email address associated with your AcmeTech account and click "Send Reset Link." Check your inbox for an email from no-reply@acmetechsolutions.com. The email will arrive within two minutes in most cases; if you do not see it, please check your spam or junk folder. Click the reset link in the email. The link is valid for 30 minutes from the time it was sent. You will be directed to a page where you can create a new password. Your new password must be at least 12 characters long and must include at least one uppercase letter, one lowercase letter, one number, and one special character. Confirm your new password and click "Reset Password." You will be redirected to the login page and can sign in with your new password immediately.
+
+Common Troubleshooting Issues
+If you did not receive the reset email within five minutes, verify that you entered the correct email address. If your company uses a custom email domain, confirm that the AcmeTech notification email address is not blocked by your organization's email security filters. If you are part of an organization that uses Single Sign-On (SSO) for AcmeTech access, you cannot reset your AcmeTech password directly. Contact your IT administrator to reset your credentials through your corporate identity provider.
+
+Account Lockout
+If your account has been locked due to multiple failed login attempts, you will need to wait 15 minutes before attempting to sign in again or request a password reset as described above. Accounts locked due to a suspected security event may require manual verification by the AcmeTech Support team. Please submit a support ticket if your account remains locked after a successful password reset.
+
+Contacting Support
+If you continue to experience issues accessing your account after completing the password reset, please contact the AcmeTech Customer Support team by submitting a ticket through the support portal at support.acmetechsolutions.com or by emailing support@acmetechsolutions.com. Please include your account email address and a description of the issue you are experiencing.
+===============================
+Document ID: SUP-002
+Category: Customer Support Knowledge Base
+Title: Account Recovery Guide
+
+Article: Recovering Access to a Locked or Compromised AcmeTech Account
+Category: Account Access
+Last Updated: February 2026
+
+Overview
+This article explains how to recover access to your AcmeTech account in scenarios beyond a standard password reset, including locked accounts, suspected unauthorized access, or situations where you no longer have access to your registered email address.
+
+Recovering a Locked Account
+If your account is locked due to multiple failed login attempts, the lockout period is 15 minutes for standard login attempt failures. You may use the self-service password reset during the lockout period to immediately regain access with a new password. If your account is locked due to a security review triggered by suspicious activity, the lockout may remain in place until cleared by AcmeTech's Support team. In this case, submit a support ticket with subject line "Locked Account – Security Review" and include your account email, organization name, and a brief description of your recent account activity.
+
+Suspected Unauthorized Access
+If you believe your AcmeTech account has been accessed without your authorization, take the following steps immediately. Sign in to your account if possible and navigate to Account Settings > Active Sessions to view all currently active sessions. Revoke any sessions you do not recognize using the "Sign out" option next to each session. Change your password immediately using the settings available in Account Security. If you cannot sign in, use the self-service password reset. Enable multi-factor authentication if it is not already enabled. Contact AcmeTech Support to report the suspected breach. Our security team will investigate the account activity log and assist with containment.
+
+Changing Your Registered Email Address
+If you need to update the email address associated with your account, sign in and navigate to Account Settings > Profile. Enter your new email address and confirm by re-entering your current password. A verification email will be sent to the new address. Click the verification link to confirm the change. If you no longer have access to your original email address, contact Support with identity verification documentation before the change can be processed.
+
+Organization Administrator Recovery
+If you are an organization administrator who has lost access to your account and cannot use self-service recovery, AcmeTech requires multi-factor identity verification before restoring access. Contact Support via phone through your dedicated account number or email support with a formal written request on company letterhead. Processing time for administrator account recovery requests is one to two business days.
+===============================
+Document ID: SUP-003
+Category: Customer Support Knowledge Base
+Title: Subscription Upgrade Guide
+
+Article: How to Upgrade Your AcmeTech Subscription Plan
+Category: Billing and Subscriptions
+Last Updated: April 2026
+
+Overview
+This article explains how to upgrade your AcmeTech subscription to a higher plan tier, what to expect during the upgrade process, and how billing is handled for mid-cycle upgrades.
+
+Available Subscription Plans
+AcmeTech offers three subscription tiers. The Starter plan is designed for small teams and includes core platform access for up to 10 users with standard support. The Professional plan is designed for growing teams and includes advanced features, up to 50 users, and priority support. The Enterprise plan is designed for large organizations and includes full feature access, unlimited users, custom integrations, dedicated account management, and enterprise SLA support.
+
+How to Upgrade
+To upgrade your subscription, sign in to your AcmeTech account as an organization administrator and navigate to the Billing section in your Account Settings. Click "Change Plan" and select the plan you wish to upgrade to. Review the plan features and pricing summary on the plan comparison page. Click "Confirm Upgrade" to proceed. If your account is on a monthly billing cycle, the new plan pricing takes effect immediately and your first invoice at the new rate will be generated at the next billing date. If your account is on an annual billing cycle, you will be charged a prorated amount for the remainder of the current annual term at the time of the upgrade. Your upgraded plan features will be available immediately upon confirmation.
+
+User Seat Adjustments
+When upgrading to a plan with a higher user limit, additional user seats become available immediately. If your current user count exceeds the limit of your new plan, you will be prompted to remove users before the upgrade can be confirmed. AcmeTech does not automatically remove users; an administrator must manage user access through the User Management section.
+
+Enterprise Plan Upgrades
+Upgrades to the Enterprise plan cannot be completed through the self-service billing portal. Contact your AcmeTech account manager or reach out to the sales team at sales@acmetechsolutions.com to discuss your Enterprise plan requirements. The Enterprise onboarding process typically takes three to five business days and includes a kickoff call with your dedicated account team.
+
+Billing Inquiries
+For questions about subscription pricing, invoice details, or billing adjustments, contact the AcmeTech Billing team via the support portal at support.acmetechsolutions.com or call the billing hotline available on your account contact page.
+===============================
+Document ID: SUP-004
+Category: Customer Support Knowledge Base
+Title: Billing Issues Troubleshooting Guide
+
+Article: Resolving Billing Issues with Your AcmeTech Account
+Category: Billing and Subscriptions
+Last Updated: March 2026
+
+Overview
+This article addresses common billing issues that AcmeTech customers may encounter, including failed payment processing, unexpected charges, invoice discrepancies, and subscription cancellations. For urgent billing issues that are preventing access to your account, contact the AcmeTech Billing Support team immediately.
+
+Failed Payment Processing
+If a payment for your AcmeTech subscription has failed, you will receive an email notification from billing@acmetechsolutions.com. Your account will remain active for seven days following a failed payment to allow time to resolve the issue. To resolve a failed payment, sign in and navigate to Billing > Payment Methods. Verify that your payment method details are current, including the card number, expiration date, and billing address. Update the payment method if necessary and click "Retry Payment." If the payment continues to fail, contact your card issuer or bank to confirm that there are no restrictions on transactions to AcmeTech.
+
+Unexpected Charges
+If you see a charge from AcmeTech that you do not recognize, check your account billing history in the Billing section of Account Settings for a detailed breakdown of all charges. Common reasons for unexpected charges include mid-cycle plan upgrades, additional user seat purchases, and overage charges for usage-based features. If you are unable to identify the source of a charge after reviewing your billing history, contact the AcmeTech Billing team with the charge date and amount and a team member will investigate within two business days.
+
+Invoice Discrepancies
+If your invoice does not match your expected subscription pricing, verify that your plan tier and any discounts or promotional pricing are reflected correctly in your Account Settings. Invoices can be downloaded as PDFs from the Billing History section. If the discrepancy persists, submit a support ticket with the invoice number and a description of the expected versus actual amounts.
+
+Requesting a Refund
+AcmeTech's standard policy is that subscription fees are non-refundable except in cases of verified billing errors or circumstances covered by AcmeTech's 30-day satisfaction guarantee for new subscriptions. Refund requests must be submitted within 30 days of the charge date. Contact the Billing team with your account information and the reason for the refund request.
+
+Account Suspension
+If your account has been suspended due to non-payment, access to the AcmeTech platform will be restricted until the overdue balance is paid. Contact the Billing team to arrange payment and request reactivation. Account data is retained for 90 days following suspension before it is subject to deletion.
+===============================
+Document ID: SUP-005
+Category: Customer Support Knowledge Base
+Title: API Rate Limits Guide
+
+Article: Understanding AcmeTech API Rate Limits
+Category: API and Integrations
+Last Updated: March 2026
+
+Overview
+AcmeTech enforces API rate limits to ensure fair usage of the platform and to protect system stability for all customers. This article explains how rate limits work, how to check your current usage, how to handle rate limit errors, and how to request a rate limit increase.
+
+Default Rate Limits
+AcmeTech API rate limits are applied per customer organization. The default rate limits by plan tier are: Starter Plan: 500 requests per minute. Professional Plan: 1,000 requests per minute. Enterprise Plan: Customizable, with a default of 5,000 requests per minute configurable up to your contracted maximum. Rate limits apply to all API endpoints collectively. Specific high-throughput endpoints such as batch operations may have additional per-endpoint limits documented in the API reference.
+
+How Rate Limiting Works
+AcmeTech uses a sliding window rate limiting algorithm. Your request quota is replenished continuously rather than resetting at a fixed interval. This means that if you send 500 requests in the first 10 seconds of a minute, you are not allowed to send 500 more requests at the start of the next minute; instead, you regain capacity gradually as older requests move out of the sliding window.
+
+Handling Rate Limit Errors
+When your request rate exceeds the configured limit, the AcmeTech API returns an HTTP 429 Too Many Requests response. The response includes a Retry-After header indicating the number of seconds you should wait before retrying. Your integration should implement exponential backoff with jitter when encountering 429 responses. Do not immediately retry at full request volume after the Retry-After period; increase the delay progressively if rate limit errors persist. Monitoring your API usage against your rate limits proactively is the best way to avoid unexpected 429 errors in production.
+
+Monitoring API Usage
+Organization administrators can view real-time and historical API usage in the AcmeTech developer dashboard under Settings > API Usage. Usage data is updated every minute. Alerts can be configured to notify your team when API usage exceeds a specified percentage of your rate limit. Setting up usage alerts is strongly recommended for all integrations with high request volumes.
+
+Requesting a Rate Limit Increase
+Enterprise customers who require higher rate limits than their default allocation can request an increase through their dedicated account manager or by submitting a support ticket with the subject "Rate Limit Increase Request." Include your organization name, current limit, requested limit, and a brief description of your use case. Rate limit increases for Enterprise customers are typically approved within two business days.
+===============================
+Document ID: SUP-006
+Category: Customer Support Knowledge Base
+Title: Feature Activation Guide
+
+Article: How to Activate Optional Features in AcmeTech
+Category: Platform Configuration
+Last Updated: February 2026
+
+Overview
+AcmeTech includes a library of optional features that can be activated for your organization based on your subscription plan. This article explains how to browse available features, activate them, and troubleshoot common activation issues.
+
+Browsing Available Features
+Organization administrators can browse the full feature catalog by navigating to Account Settings > Features in the AcmeTech platform. Features are organized by category: Analytics, Collaboration, Security, Integrations, and Automation. Each feature listing includes a description, the subscription plan required to access it, and a link to the full documentation for that feature. Features marked as "Beta" are available for early access and may not yet be covered by the standard SLA.
+
+Activating a Feature
+To activate an available feature, navigate to Account Settings > Features and locate the feature you wish to enable. Click the "Activate" button next to the feature name. Some features may display a configuration form before activation is complete. Fill in the required configuration fields and click "Confirm Activation." The feature will be active for all users in your organization within five minutes of activation. You will receive a confirmation email at your account administrator email address.
+
+Feature Activation Errors
+If you encounter an error when attempting to activate a feature, the most common causes are: your current subscription plan does not include the requested feature (upgrade your plan to access it); a required prerequisite feature has not yet been activated (the error message will specify which prerequisite must be enabled first); or your organization account has reached the maximum number of active features permitted on your plan.
+
+Deactivating a Feature
+Features can be deactivated at any time by navigating to Account Settings > Features and clicking "Deactivate" next to the active feature. Some features may prompt you to export or migrate your data before deactivation completes. Deactivating a feature does not delete the associated data immediately; data retention after deactivation follows AcmeTech's standard data retention policy. Reactivating a previously deactivated feature will restore access to your existing feature data.
+
+Enterprise Feature Requests
+Enterprise customers with requirements for custom features or feature configurations not available in the standard catalog should contact their dedicated account manager. Custom feature development requests are reviewed by the AcmeTech Product team and evaluated against the product roadmap.
+===============================
+Document ID: SUP-007
+Category: Customer Support Knowledge Base
+Title: Security Settings Guide
+
+Article: Configuring Security Settings for Your AcmeTech Organization
+Category: Security and Compliance
+Last Updated: April 2026
+
+Overview
+AcmeTech provides a comprehensive set of security settings that organization administrators can configure to meet their organization's security and compliance requirements. This article covers multi-factor authentication enforcement, session management, IP allowlisting, and audit log access.
+
+Enabling Organization-Wide Multi-Factor Authentication
+Organization administrators can enforce MFA for all users in the organization by navigating to Account Settings > Security > Authentication. Toggle the "Require Multi-Factor Authentication" setting to enabled. Once enabled, all users who have not already configured MFA will be required to set up an authenticator app at their next login before they can access the platform. Users who have already configured MFA are unaffected. AcmeTech supports TOTP-based authenticator apps and WebAuthn hardware security keys for MFA.
+
+Session Management Settings
+Administrators can configure the session timeout duration and the maximum session length for their organization. Navigate to Account Settings > Security > Sessions. The session inactivity timeout can be set between 15 minutes and 24 hours. The absolute maximum session duration can be set between 1 hour and 30 days. Sessions that exceed either threshold are automatically terminated, requiring users to sign in again. Administrators can view and revoke active sessions for any user in their organization from the User Management section.
+
+IP Allowlisting
+Enterprise plan customers can restrict AcmeTech access to specific IP address ranges by configuring an IP allowlist. Navigate to Account Settings > Security > IP Allowlist and enter the authorized IP address ranges in CIDR notation. When an allowlist is active, access attempts from IP addresses outside the configured ranges will be blocked with an access denied error. Test your allowlist configuration carefully before enabling it to ensure that all legitimate users are included. The allowlist can be disabled immediately if users are inadvertently locked out.
+
+Audit Log Access
+AcmeTech maintains a comprehensive audit log of all administrative actions, user login events, permission changes, and data access events within your organization. Administrators can access the audit log by navigating to Account Settings > Security > Audit Log. Logs can be filtered by date range, event type, and user. Audit logs can be exported in CSV or JSON format for integration with your SIEM or compliance tooling. Log retention is 12 months for Professional plan customers and 24 months for Enterprise plan customers.
+
+Security Incident Reporting
+If you suspect a security incident involving your AcmeTech organization, contact the AcmeTech Security team immediately at security@acmetechsolutions.com. Include your organization name, a description of the suspected incident, and any relevant details. AcmeTech's security team will acknowledge your report within four hours and provide a status update within 24 hours.
+===============================
+Document ID: SUP-008
+Category: Customer Support Knowledge Base
+Title: Mobile App Troubleshooting Guide
+
+Article: Troubleshooting AcmeTech Mobile App Issues
+Category: Mobile App
+Last Updated: March 2026
+
+Overview
+This article covers the most common issues experienced by users of the AcmeTech mobile app on iOS and Android devices, along with step-by-step troubleshooting instructions. If your issue is not covered here, please submit a support ticket through the app or the support portal.
+
+Cannot Sign In to the Mobile App
+If you are unable to sign in to the AcmeTech mobile app, try the following steps. Confirm you are using the correct email address and password associated with your AcmeTech account. If you have forgotten your password, use the "Forgot password?" link on the login screen. Verify that your device has an active internet connection by opening another app that requires connectivity. If your organization uses Single Sign-On, tap "Sign in with SSO" and enter your organization's SSO domain rather than your password. Ensure your device's operating system is up to date; the AcmeTech app requires iOS 16 or higher and Android 12 or higher. If the issue persists, uninstall and reinstall the app from the App Store or Google Play.
+
+App Crashes or Freezes
+If the AcmeTech mobile app crashes or becomes unresponsive, force-close the app and reopen it. If the app crashes consistently on launch, uninstall it and reinstall the latest version from the app store. Check that your device has at least 200 MB of available storage. Clearing the app's cache on Android devices (Settings > Apps > AcmeTech > Storage > Clear Cache) can resolve many performance-related issues. If crashes occur in a specific feature or after a recent app update, submit a support ticket through the support portal and include your device model, OS version, and a description of the steps that reproduce the crash.
+
+Notifications Not Arriving
+If you are not receiving push notifications from the AcmeTech mobile app, check that notification permissions are enabled for AcmeTech in your device settings. On iOS, navigate to Settings > AcmeTech > Notifications and ensure "Allow Notifications" is enabled. On Android, navigate to Settings > Apps > AcmeTech > Notifications. If notifications are enabled at the device level, check in-app notification preferences by navigating to Profile > Notification Settings within the AcmeTech app.
+
+Data Not Syncing
+If data in the mobile app appears out of date, pull down on the main screen to force a manual refresh. Check your device's network connectivity. If you are connected to Wi-Fi, try switching to your mobile data connection to rule out a Wi-Fi-specific issue. Sign out and sign back in to the app to force a full data refresh. If a specific record or document is not syncing, check whether the same data is accessible via the web platform to determine whether the issue is app-specific or account-specific.
+===============================
+Document ID: SUP-009
+Category: Customer Support Knowledge Base
+Title: SSO Setup Guide
+
+Article: Setting Up Single Sign-On for Your AcmeTech Organization
+Category: Security and Integrations
+Last Updated: February 2026
+
+Overview
+AcmeTech supports Single Sign-On (SSO) integration with corporate identity providers via SAML 2.0 and OpenID Connect (OIDC). Enabling SSO allows your users to sign in to AcmeTech using their existing corporate credentials, eliminating the need for separate AcmeTech passwords and enabling centralized access management. SSO setup is available on Professional and Enterprise plans.
+
+Prerequisites
+Before configuring SSO, ensure you have administrator access to both your corporate identity provider and your AcmeTech organization account. You will need your identity provider's metadata URL or XML file (for SAML) or your identity provider's discovery endpoint URL, client ID, and client secret (for OIDC). SSO configuration should be tested in a non-production environment before being activated for all users.
+
+Configuring SAML 2.0 SSO
+Navigate to Account Settings > Security > Single Sign-On in AcmeTech. Select SAML 2.0 as the SSO type. Download the AcmeTech Service Provider metadata from the configuration page and upload it to your identity provider to create the AcmeTech application. In AcmeTech, enter your identity provider's metadata URL or upload the metadata XML file. Configure the attribute mapping to specify which identity provider attributes correspond to AcmeTech's required user fields: email address, first name, and last name. Save the configuration and click "Test SSO Connection" to validate before enabling.
+
+Configuring OIDC SSO
+Navigate to Account Settings > Security > Single Sign-On and select OpenID Connect as the SSO type. Enter your identity provider's discovery endpoint URL, client ID, and client secret. Configure the required scopes: openid, email, and profile. Enter the redirect URI displayed on the AcmeTech configuration page into your identity provider's application settings. Save the configuration and test the SSO flow using the "Test SSO Connection" button.
+
+Activating SSO for All Users
+Once the SSO configuration is tested and confirmed working, activate it for your organization by toggling "Enforce SSO Login" in the SSO configuration settings. After SSO is enforced, users will be redirected to your identity provider's login page when they attempt to sign in to AcmeTech. Existing AcmeTech-native passwords will no longer be accepted. Ensure all users have active accounts in your identity provider before enforcing SSO to prevent lockouts.
+
+Troubleshooting SSO Issues
+Common SSO configuration errors include certificate mismatch between the identity provider and AcmeTech's expected signature validation settings, incorrect attribute mapping causing user provisioning failures, and redirect URI mismatches in OIDC configurations. If users are unable to complete the SSO login flow, check the error details displayed in the browser and compare them against the SSO troubleshooting guide in the AcmeTech developer documentation.
+===============================
+Document ID: SUP-010
+Category: Customer Support Knowledge Base
+Title: User Management Guide
+
+Article: Managing Users in Your AcmeTech Organization
+Category: Administration
+Last Updated: April 2026
+
+Overview
+This article describes how organization administrators can add, manage, and remove users within their AcmeTech account. Proper user management ensures that the right people have appropriate access to your organization's data and features while maintaining security and compliance.
+
+Adding New Users
+Organization administrators can invite new users by navigating to Account Settings > Users and clicking "Invite User." Enter the new user's email address and select their role. AcmeTech provides three default roles: Member (standard user access to all features assigned to their account), Admin (ability to manage users, billing, and organization settings), and View Only (read-only access to all organization data). Click "Send Invitation." The invited user will receive an email invitation from noreply@acmetechsolutions.com with a link to create their account. Invitation links expire after 72 hours; expired invitations can be resent from the Users section.
+
+Managing User Roles and Permissions
+User roles can be updated at any time by navigating to Account Settings > Users, locating the user, and selecting "Edit Role." Role changes take effect immediately. Custom roles with granular permissions are available on the Enterprise plan and can be configured in Account Settings > Users > Roles. Changes to user roles are recorded in the organization's audit log.
+
+Removing Users
+To remove a user from your organization, navigate to Account Settings > Users, locate the user, and click "Remove User." Confirm the removal in the dialog that appears. Removed users immediately lose access to all AcmeTech organization resources. Their user account is deactivated but their user data, including any records they created, remains associated with your organization. If SSO is enabled, removing a user from AcmeTech does not automatically remove them from your identity provider; you must deactivate the user in both systems.
+
+Bulk User Management
+Organizations managing more than 50 users can use the CSV import feature to add or update users in bulk. Download the import template from Account Settings > Users > Import Users, populate it with the required user fields, and upload the completed file. The import process validates all entries and reports any errors before making changes. Bulk user removal is also supported through the CSV import with a "remove" action column.
+
+User Activity and Access Reviews
+Administrators are encouraged to conduct periodic user access reviews to ensure that only active employees retain AcmeTech access. The User Activity Report, available in Account Settings > Users > Reports, shows each user's last login date and activity summary. Users who have not logged in for more than 90 days are flagged in the report. AcmeTech also supports automated deprovisioning via SCIM for organizations that require lifecycle management integrated with their HR system.
+===============================
+Document ID: SUP-011
+Category: Customer Support Knowledge Base
+Title: Data Export Guide
+
+Article: Exporting Your Data from AcmeTech
+Category: Data Management
+Last Updated: March 2026
+
+Overview
+AcmeTech provides tools for organization administrators to export their data for backup purposes, regulatory compliance, or migration to another system. This article explains the available export options, file formats, and the process for initiating a data export.
+
+Available Export Types
+AcmeTech supports the following data exports for organization administrators. Account and User Data: Export a CSV file containing all user profiles, roles, and access history for your organization. This is useful for HR compliance and access review purposes. Activity and Audit Logs: Export audit log data in CSV or JSON format for integration with your SIEM or compliance reporting tools. Customer Records: Export all customer records and associated metadata in JSON format. Support ticket history, notes, and attachments are included in the export package. Analytics and Reporting Data: Export raw analytics event data in CSV format for import into your business intelligence tooling.
+
+Initiating a Data Export
+Organization administrators can initiate a data export by navigating to Account Settings > Data Management > Export Data. Select the export type and the date range for the data to be included. For large date ranges, exports may take up to 24 hours to complete. You will receive an email notification when the export file is ready for download. Export files are available for download for seven days after generation. After seven days, the export file is deleted and a new export must be initiated.
+
+Data Format and Encoding
+All CSV exports use UTF-8 encoding with comma delimiters and double-quote field encapsulation. JSON exports follow AcmeTech's standard data schema documented in the developer documentation. Attachment files included in export packages are compressed in ZIP format. Large exports exceeding 1 GB are split into multiple ZIP files numbered sequentially.
+
+Compliance and Regulatory Exports
+Organizations subject to data protection regulations such as GDPR or CCPA may need to respond to data subject access requests by exporting individual customer or user data. AcmeTech provides a per-user data export function accessible from the individual user's profile in Account Settings > Users. This export generates a comprehensive package of all data held for the specified user and is formatted to meet standard data subject access request documentation requirements.
+
+Data Deletion
+If you wish to delete your organization's data from AcmeTech, contact the AcmeTech Support team to initiate the data deletion process. Data deletion is irreversible and requires written confirmation from an organization administrator. AcmeTech will confirm deletion of your data within 30 days and provide a deletion certificate upon request.
+===============================
+Document ID: SUP-012
+Category: Customer Support Knowledge Base
+Title: Integration Troubleshooting Guide
+
+Article: Troubleshooting AcmeTech Third-Party Integrations
+Category: API and Integrations
+Last Updated: April 2026
+
+Overview
+AcmeTech supports integrations with a wide range of third-party tools through both native integrations and the AcmeTech public API. This article covers common issues and troubleshooting steps for AcmeTech integrations.
+
+Integration Not Connecting
+If a native AcmeTech integration is not connecting to a third-party tool, verify that you have completed all authorization steps required by the integration. Most integrations require you to authenticate with the third-party tool during setup. Ensure that the account you are using to authorize the integration has the necessary permissions within the third-party tool. For example, some CRM integrations require an administrator account in the CRM to access all required data. Check that the third-party tool's API is not experiencing an outage by checking the tool's status page. Reconnect the integration by navigating to Account Settings > Integrations, selecting the affected integration, and clicking "Reconnect."
+
+Data Not Syncing Between Systems
+If data is not flowing between AcmeTech and a connected third-party tool, check the integration activity log in Account Settings > Integrations > [Integration Name] > Activity Log for error messages. Common error causes include invalid or expired API credentials (refresh the integration credentials by reconnecting), field mapping mismatches between AcmeTech and the third-party tool (review the field mapping configuration in the integration settings), and rate limit errors from the third-party tool (check the third-party tool's API rate limit documentation and reduce sync frequency if needed).
+
+Webhook Delivery Failures
+If you have configured webhooks to receive events from AcmeTech and are not receiving them, verify that your webhook endpoint is accessible from the public internet and returns a 200 HTTP status code within five seconds of receiving a webhook. AcmeTech retries failed webhook deliveries up to three times with exponential backoff. If all retries fail, the webhook event is marked as failed and is not retried further. You can view webhook delivery logs and manually replay failed events from Account Settings > Integrations > Webhooks.
+
+API Key Expiration
+AcmeTech API keys used for custom integrations do not expire by default but may be revoked by an administrator. If an integration that was previously working stops functioning with authentication errors, verify that the API key used by the integration is still active in Account Settings > API > API Keys. Generate a new API key and update the integration configuration if the original key has been revoked.
+===============================
+Document ID: SUP-013
+Category: Customer Support Knowledge Base
+Title: Performance Issues Troubleshooting Guide
+
+Article: Troubleshooting AcmeTech Platform Performance Issues
+Category: Platform Performance
+Last Updated: March 2026
+
+Overview
+This article provides guidance for customers who are experiencing slow performance, timeouts, or degraded functionality on the AcmeTech platform. Most performance issues can be resolved through the steps described below.
+
+Check AcmeTech System Status
+Before troubleshooting on your end, visit status.acmetechsolutions.com to check whether AcmeTech is currently experiencing a platform incident or degraded performance. If an incident is in progress, the status page will provide updates on the affected services and the expected resolution timeline. Subscribe to status page updates to receive automated notifications when incidents are declared and resolved.
+
+Browser Performance Issues
+If AcmeTech loads slowly in your web browser, try the following steps. Clear your browser's cache and cookies and reload the page. Try accessing AcmeTech in an incognito or private browsing window to rule out cached data or browser extension interference. Test using a different web browser to determine whether the issue is browser-specific. Ensure your browser is updated to the latest version. AcmeTech officially supports the latest two major versions of Chrome, Firefox, Safari, and Edge.
+
+Network Connectivity
+Performance issues may be caused by network-level problems between your location and AcmeTech's servers. Test your network speed using an online speed test. If you are on a corporate network, check with your IT team to ensure that AcmeTech's domains are not subject to bandwidth throttling or deep packet inspection that may affect performance. If using a VPN, try disabling it temporarily to determine whether the VPN is affecting AcmeTech connectivity.
+
+Large Data Queries
+If performance issues are specific to loading large reports, dashboards, or data exports within AcmeTech, consider narrowing the date range or filtering criteria of your query to reduce the volume of data being processed. AcmeTech applies query timeout limits of 120 seconds for standard queries. Queries that routinely require more than 60 seconds to complete should be scheduled as background reports rather than executed interactively.
+
+Contacting Support for Performance Issues
+If you continue to experience performance issues after completing the above steps, submit a support ticket with the following information: a description of the specific actions that are slow or timing out, your approximate location and network type, the browser and OS version you are using, the time and date when the performance issue occurred, and any error messages displayed. This information will help the AcmeTech Support team investigate efficiently.
+===============================
+Document ID: SUP-014
+Category: Customer Support Knowledge Base
+Title: Onboarding New Team Members Guide
+
+Article: Onboarding New Team Members to AcmeTech
+Category: Administration
+Last Updated: February 2026
+
+Overview
+This article guides organization administrators through the steps to successfully onboard new team members to AcmeTech, from initial account invitation through first-day setup and training resources.
+
+Step 1: Invite the New User
+Navigate to Account Settings > Users and click "Invite User." Enter the new team member's work email address and select the appropriate role for their responsibilities. If your organization uses SSO, the new user will be provisioned automatically when they first sign in using your corporate identity provider; a manual invitation may not be required depending on your SSO configuration. If you are using AcmeTech's native authentication, the invitation email will be sent from noreply@acmetechsolutions.com. The invitation expires after 72 hours; you can resend it from the Users section if needed.
+
+Step 2: Assign Groups and Permissions
+If your organization uses custom groups to manage access to specific projects, customers, or features, add the new team member to the appropriate groups before their first login. Navigate to Account Settings > Groups, select the relevant group, and add the new user. Group membership determines which data and features the user can access within their assigned role.
+
+Step 3: Share Getting Started Resources
+AcmeTech provides a Getting Started guide and video tutorial series accessible from the Help Center at help.acmetechsolutions.com. Share the following resources with new team members: the Getting Started Guide for their specific role (Member, Admin, or View Only), the AcmeTech Quick Start video (15 minutes), and the keyboard shortcuts reference card. The in-app onboarding checklist will appear automatically for new users on their first login and guides them through the platform's core features.
+
+Step 4: Schedule a Walkthrough
+For teams onboarding five or more new users at once, AcmeTech offers a complimentary onboarding webinar facilitated by a Customer Success team member. Professional and Enterprise plan customers can schedule an onboarding session by contacting their Customer Success Manager or emailing onboarding@acmetechsolutions.com. The session covers platform navigation, key workflows, and best practices relevant to your team's use case.
+
+Step 5: Monitor Adoption
+After onboarding, track new user adoption through the User Activity Report in Account Settings > Users > Reports. Users who have not completed the in-app onboarding checklist or who have not logged in within seven days of invitation can be identified in this report. Follow up with these users to address any barriers to adoption. AcmeTech's Customer Success team can provide additional enablement resources on request.
+===============================
+Document ID: SUP-015
+Category: Customer Support Knowledge Base
+Title: Data Import Guide
+
+Article: Importing Data into AcmeTech
+Category: Data Management
+Last Updated: April 2026
+
+Overview
+AcmeTech provides data import tools to help new customers migrate data from existing systems and to enable ongoing bulk data operations. This article describes the supported import types, file format requirements, and the step-by-step import process.
+
+Supported Import Types
+AcmeTech currently supports the following data imports. Customer Records: Import a list of customer organizations and contacts in CSV format. Bulk User Import: Add or update multiple AcmeTech users at once using a CSV file as described in the User Management guide. Historical Data Migration: Enterprise plan customers can work with the AcmeTech Professional Services team to migrate large volumes of historical data, including transactional records and attachments.
+
+Preparing Your Import File
+Download the import template for your data type from the Import Data section in Account Settings > Data Management > Import Data. The template includes all required and optional columns with descriptions and example values. Ensure your import file follows these requirements: UTF-8 encoding, comma-delimited CSV format, values containing commas enclosed in double quotes, and no extra rows or columns outside the template structure. Validate required fields are populated for every row. Common required fields include a unique identifier, name, and at minimum one contact method.
+
+Running the Import
+Navigate to Account Settings > Data Management > Import Data and select your import type. Upload your prepared CSV file. AcmeTech validates the file format and checks for errors before importing any records. If errors are detected, a validation report will be displayed showing the row number and error description for each issue. Correct the errors in your source file and re-upload. Once validation passes, click "Confirm Import" to proceed. Large imports processing more than 10,000 records are queued as background jobs. You will receive an email notification when the import completes.
+
+Reviewing Import Results
+After the import completes, review the import summary report showing the number of records successfully imported, updated, skipped, and failed. Download the detailed results file to see the status of each individual row. Failed rows are not imported and must be corrected and re-imported. Successfully imported records are immediately available in AcmeTech.
+
+Troubleshooting Import Errors
+Common import errors include duplicate records where a unique identifier already exists in AcmeTech (resolve by using the "Update" mode instead of "Create" mode), invalid field values that do not match the expected format or allowed values, and file encoding issues. If you receive an error that you cannot resolve using the validation report, contact AcmeTech Support and attach the import file and the error report for review.
+===============================
