@@ -89,35 +89,39 @@ A complete, end-to-end **Retrieval Augmented Generation (RAG)** demo using a syn
 ```
 RAG-Based-Company-Document-Visualisation/
 │
-├── Knowledge Base (source documents)
-│   ├── employee_directory.txt          # 20 employee profiles
-│   ├── hr_policies.txt                 # 15 HR policy documents
-│   ├── finance_tax.txt                 # 15 finance documents
-│   ├── engineering_documentation.txt   # 15 engineering docs
-│   ├── customer_support_kb.txt         # 15 support articles
-│   └── product_management.txt          # 10 product strategy docs
+├── knowledge_base/                         # Source documents
+│   ├── employee_directory.txt              # 20 employee profiles
+│   ├── hr_policies.txt                     # 15 HR policy documents
+│   ├── finance_tax.txt                     # 15 finance documents
+│   ├── engineering_documentation.txt       # 15 engineering docs
+│   ├── customer_support_kb.txt             # 15 support articles
+│   └── product_management.txt              # 10 product strategy docs
 │
-├── Pipeline Scripts (run in order)
-│   ├── step3_load_documents.py         # Load .txt files → Documents
-│   ├── step4_chunk_documents.py        # Split into 90 chunks
-│   ├── step4b_visualise_chunks.py      # Pre-embedding diagnostics
-│   ├── step5_generate_embeddings.py    # Embed with sentence-transformers
-│   ├── step6_store_in_chroma.py        # Index into ChromaDB
-│   ├── step7_test_retrieval.py         # Test similarity search
-│   ├── step8_umap_visualisation.py     # UMAP 2D + 3D plots
-│   ├── step9_create_dataframe.py       # Build enriched plot DataFrame
-│   ├── step10_interactive_plot.py      # 4 interactive Plotly charts
-│   ├── step11_save_image.py            # Export PNG + HTML
-│   ├── step12_advanced_visualisation.py# Full-text hover, filter, spotlight
-│   └── step13_rag_query.py             # RAG: ChromaDB + Mistral AI
+├── scripts/                                # Pipeline scripts (run in order)
+│   ├── step3_load_documents.py             # Load .txt files → Documents
+│   ├── step4_chunk_documents.py            # Split into 90 chunks
+│   ├── step4b_visualise_chunks.py          # Pre-embedding diagnostics
+│   ├── step5_generate_embeddings.py        # Embed with sentence-transformers
+│   ├── step6_store_in_chroma.py            # Index into ChromaDB
+│   ├── step7_test_retrieval.py             # Test similarity search
+│   ├── step8_umap_visualisation.py         # UMAP 2D + 3D plots
+│   ├── step9_create_dataframe.py           # Build enriched plot DataFrame
+│   ├── step10_interactive_plot.py          # 4 interactive Plotly charts
+│   ├── step11_save_image.py                # Export PNG + HTML
+│   ├── step12_advanced_visualisation.py    # Full-text hover, filter, spotlight
+│   └── step13_rag_query.py                 # RAG: ChromaDB + Mistral AI
 │
-├── Notebook
-│   └── rag_visualisation.ipynb         # Complete Colab notebook
+├── notebook/
+│   └── rag_visualisation.ipynb             # Complete Colab notebook
 │
-├── Config
-│   ├── requirements.txt                # All Python dependencies
-│   ├── master_prompt.txt               # Prompt used to generate knowledge base
-│   └── .gitignore                      # Excludes venv, vector_db, pkl, keys
+├── config/
+│   ├── requirements.txt                    # All Python dependencies
+│   ├── master_prompt.txt                   # Prompt used to generate knowledge base
+│   └── .gitignore                          # Excludes venv, vector_db, pkl, keys
+│
+├── README.md
+├── DEMO.md
+└── MEDIUM_BLOG.md
 ```
 
 ---
@@ -174,7 +178,7 @@ git clone https://github.com/Charu1806/RAG_LangChain_Demo.git
 cd RAG_LangChain_Demo
 python3 -m venv venv
 source venv/bin/activate
-pip install -r requirements.txt
+pip install -r config/requirements.txt
 ```
 
 ### 2. Set your Mistral API key
@@ -185,12 +189,12 @@ export MISTRAL_API_KEY="your-key-here"
 
 ### 3. Run the full pipeline
 ```bash
-python3 step3_load_documents.py
-python3 step4_chunk_documents.py
-python3 step5_generate_embeddings.py
-python3 step6_store_in_chroma.py
-python3 step8_umap_visualisation.py
-python3 step13_rag_query.py
+python3 scripts/step3_load_documents.py
+python3 scripts/step4_chunk_documents.py
+python3 scripts/step5_generate_embeddings.py
+python3 scripts/step6_store_in_chroma.py
+python3 scripts/step8_umap_visualisation.py
+python3 scripts/step13_rag_query.py
 ```
 
 ### Or use the Colab notebook

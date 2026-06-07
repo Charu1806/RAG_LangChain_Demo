@@ -28,6 +28,9 @@ Run:
 """
 
 import pickle
+from pathlib import Path
+PROJECT_ROOT = Path(__file__).parent.parent
+CACHE_DIR    = PROJECT_ROOT
 import numpy as np
 import pandas as pd
 import plotly.express as px
@@ -35,10 +38,10 @@ import plotly.graph_objects as go
 from umap import UMAP
 
 # ── Load data ──────────────────────────────────────────────────────────────────
-with open("chunks.pkl", "rb") as f:
+with open(CACHE_DIR / "chunks.pkl", "rb") as f:
     chunks = pickle.load(f)
 
-with open("embeddings.pkl", "rb") as f:
+with open(CACHE_DIR / "embeddings.pkl", "rb") as f:
     embeddings = pickle.load(f)
 
 print(f"Chunks    : {len(chunks)}")

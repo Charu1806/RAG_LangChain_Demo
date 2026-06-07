@@ -28,6 +28,9 @@ Run:
 """
 
 import pickle
+from pathlib import Path
+PROJECT_ROOT = Path(__file__).parent.parent
+CACHE_DIR    = PROJECT_ROOT
 import textwrap
 import numpy as np
 import pandas as pd
@@ -36,13 +39,13 @@ import plotly.graph_objects as go
 from sentence_transformers import SentenceTransformer
 
 # ── Load data ──────────────────────────────────────────────────────────────────
-with open("plot_df.pkl", "rb") as f:
+with open(CACHE_DIR / "plot_df.pkl", "rb") as f:
     df = pickle.load(f)
 
-with open("chunks.pkl", "rb") as f:
+with open(CACHE_DIR / "chunks.pkl", "rb") as f:
     chunks = pickle.load(f)
 
-with open("embeddings.pkl", "rb") as f:
+with open(CACHE_DIR / "embeddings.pkl", "rb") as f:
     embeddings = pickle.load(f)
 
 print(f"Loaded df: {df.shape}, chunks: {len(chunks)}, embeddings: {embeddings.shape}\n")

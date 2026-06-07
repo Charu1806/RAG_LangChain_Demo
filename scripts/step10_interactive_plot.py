@@ -18,13 +18,16 @@ Run:
 """
 
 import pickle
+from pathlib import Path
+PROJECT_ROOT = Path(__file__).parent.parent
+CACHE_DIR    = PROJECT_ROOT
 import numpy as np
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 
 # ── Load enriched DataFrame ────────────────────────────────────────────────────
-with open("plot_df.pkl", "rb") as f:
+with open(CACHE_DIR / "plot_df.pkl", "rb") as f:
     df = pickle.load(f)
 
 print(f"DataFrame loaded: {df.shape[0]} rows × {df.shape[1]} cols")

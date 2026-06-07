@@ -19,13 +19,16 @@ Run:
 """
 
 import pickle
+from pathlib import Path
+PROJECT_ROOT = Path(__file__).parent.parent
+CACHE_DIR    = PROJECT_ROOT
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
 # ── Load chunks ────────────────────────────────────────────────────────────────
-with open("chunks.pkl", "rb") as f:
+with open(CACHE_DIR / "chunks.pkl", "rb") as f:
     chunks = pickle.load(f)
 
 print(f"Loaded {len(chunks)} chunks\n")

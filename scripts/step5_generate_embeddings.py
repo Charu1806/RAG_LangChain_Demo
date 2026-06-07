@@ -22,11 +22,14 @@ Run:
 """
 
 import pickle
+from pathlib import Path
+PROJECT_ROOT = Path(__file__).parent.parent
+CACHE_DIR    = PROJECT_ROOT
 import numpy as np
 from sentence_transformers import SentenceTransformer
 
 # ── Load chunks ────────────────────────────────────────────────────────────────
-with open("chunks.pkl", "rb") as f:
+with open(CACHE_DIR / "chunks.pkl", "rb") as f:
     chunks = pickle.load(f)
 
 print(f"Loaded {len(chunks)} chunks\n")
@@ -60,7 +63,7 @@ assert embeddings.shape == (len(chunks), 384), (
 print("\n✅ Shape check passed.")
 
 # ── Save for next step ─────────────────────────────────────────────────────────
-with open("embeddings.pkl", "wb") as f:
+with open(CACHE_DIR / "embeddings.pkl", "wb") as f:
     pickle.dump(embeddings, f)
 
 print("Saved: embeddings.pkl")

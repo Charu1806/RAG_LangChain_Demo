@@ -23,7 +23,9 @@ from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import HuggingFaceEmbeddings
 
 # ── Reload ChromaDB from disk ──────────────────────────────────────────────────
-PERSIST_DIR = "./vector_db"
+from pathlib import Path
+PROJECT_ROOT = Path(__file__).parent.parent
+PERSIST_DIR  = str(PROJECT_ROOT / "vector_db")
 
 if not os.path.exists(PERSIST_DIR):
     raise FileNotFoundError(

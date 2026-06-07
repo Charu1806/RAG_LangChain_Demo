@@ -34,6 +34,9 @@ Run:
 import os
 import time
 import textwrap
+from pathlib import Path
+PROJECT_ROOT = Path(__file__).parent.parent
+KB_DIR       = PROJECT_ROOT / "knowledge_base"
 from langchain_mistralai import ChatMistralAI
 from langchain_chroma import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings
@@ -63,7 +66,7 @@ embedding_fn = HuggingFaceEmbeddings(
 )
 
 # ── Load or build ChromaDB ─────────────────────────────────────────────────────
-PERSIST_DIR = "./vector_db"
+PERSIST_DIR = str(PROJECT_ROOT / "vector_db")
 
 def clean_and_build_vector_db():
     """
@@ -90,14 +93,14 @@ def clean_and_build_vector_db():
     }
     chunks = []
     for filename, category in file_category_map.items():
-        if not os.path.exists(filename):
+        filepath = KB_DIR / filename
+        if not filepath.exists():
             raise FileNotFoundError(
-                f"\n  Missing file: {filename}\n"
-                "  Run this script from the project folder:\n"
-                "    cd ~/RAG-Based-Company-Document-Visualisation\n"
-                "    python3 step13_rag_query.py"
+                f"\n  Missing file: {filepath}\n"
+                "  Run from project root:\n"
+                "    python3 scripts/step13_rag_query.py"
             )
-        with open(filename, "r", encoding="utf-8") as f:
+        with open(filepath, "r", encoding="utf-8") as f:
             content = f.read()
         for raw in content.split(SEPARATOR):
             text = raw.strip()

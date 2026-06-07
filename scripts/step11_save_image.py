@@ -17,6 +17,9 @@ Run:
 """
 
 import pickle
+from pathlib import Path
+PROJECT_ROOT = Path(__file__).parent.parent
+CACHE_DIR    = PROJECT_ROOT
 import os
 import numpy as np
 import pandas as pd
@@ -26,7 +29,7 @@ from umap import UMAP
 from sentence_transformers import SentenceTransformer
 
 # ── Recreate everything needed ─────────────────────────────────────────────────
-with open("plot_df.pkl", "rb") as f:
+with open(CACHE_DIR / "plot_df.pkl", "rb") as f:
     df = pickle.load(f)
 
 # ── Constants ──────────────────────────────────────────────────────────────────

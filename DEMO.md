@@ -15,10 +15,10 @@ source venv/bin/activate
 export MISTRAL_API_KEY="your-key-here"
 
 # Pre-run the embedding and indexing steps so they don't run live
-python3 step3_load_documents.py
-python3 step4_chunk_documents.py
-python3 step5_generate_embeddings.py
-python3 step6_store_in_chroma.py
+python3 scripts/step3_load_documents.py
+python3 scripts/step4_chunk_documents.py
+python3 scripts/step5_generate_embeddings.py
+python3 scripts/step6_store_in_chroma.py
 ```
 
 Keep two windows open:
@@ -49,8 +49,8 @@ Keep two windows open:
 
 **Show:**
 ```bash
-python3 step3_load_documents.py
-python3 step4_chunk_documents.py
+python3 scripts/step3_load_documents.py
+python3 scripts/step4_chunk_documents.py
 ```
 
 **Point out the output:**
@@ -76,7 +76,7 @@ Total chunks: 90
 
 **Show:**
 ```bash
-python3 step5_generate_embeddings.py
+python3 scripts/step5_generate_embeddings.py
 ```
 
 **Point out:**
@@ -98,7 +98,7 @@ embeddings.shape : (90, 384)
 
 **Run:**
 ```bash
-python3 step8_umap_visualisation.py
+python3 scripts/step8_umap_visualisation.py
 ```
 
 **When the 2D chart opens:**
@@ -125,7 +125,7 @@ python3 step8_umap_visualisation.py
 
 **Run:**
 ```bash
-python3 step12_advanced_visualisation.py
+python3 scripts/step12_advanced_visualisation.py
 ```
 
 ### Chart A — Full Text Hover
@@ -168,7 +168,7 @@ python3 step12_advanced_visualisation.py
 
 **Run:**
 ```bash
-python3 step13_rag_query.py
+python3 scripts/step13_rag_query.py
 ```
 
 **While it runs, explain:**
@@ -273,18 +273,18 @@ User Question
 # Full pipeline from scratch
 source venv/bin/activate
 export MISTRAL_API_KEY="your-key"
-python3 step3_load_documents.py       # Load docs
-python3 step4_chunk_documents.py      # Chunk into 90 pieces
-python3 step5_generate_embeddings.py  # Embed (384-dim vectors)
-python3 step6_store_in_chroma.py      # Index into ChromaDB
-python3 step8_umap_visualisation.py   # 2D + 3D cluster plots
-python3 step12_advanced_visualisation.py  # Advanced charts
-python3 step13_rag_query.py           # RAG answers
+python3 scripts/step3_load_documents.py       # Load docs
+python3 scripts/step4_chunk_documents.py      # Chunk into 90 pieces
+python3 scripts/step5_generate_embeddings.py  # Embed (384-dim vectors)
+python3 scripts/step6_store_in_chroma.py      # Index into ChromaDB
+python3 scripts/step8_umap_visualisation.py   # 2D + 3D cluster plots
+python3 scripts/step12_advanced_visualisation.py  # Advanced charts
+python3 scripts/step13_rag_query.py           # RAG answers
 
 # Just the visuals (if ChromaDB already built)
-python3 step8_umap_visualisation.py
-python3 step12_advanced_visualisation.py
+python3 scripts/step8_umap_visualisation.py
+python3 scripts/step12_advanced_visualisation.py
 
 # Just the RAG (if ChromaDB already built)
-python3 step13_rag_query.py
+python3 scripts/step13_rag_query.py
 ```

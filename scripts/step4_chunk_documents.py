@@ -13,6 +13,9 @@ Run:
 """
 
 import pickle
+from pathlib import Path
+PROJECT_ROOT = Path(__file__).parent.parent
+CACHE_DIR    = PROJECT_ROOT
 from collections import Counter
 from langchain.schema import Document
 
@@ -20,7 +23,7 @@ SEPARATOR = "==============================="
 MIN_CHUNK_LENGTH = 100   # characters — filters empty separator lines
 
 # Load docs from Step 3
-with open("docs.pkl", "rb") as f:
+with open(CACHE_DIR / "docs.pkl", "rb") as f:
     docs = pickle.load(f)
 
 print(f"Loaded {len(docs)} documents from docs.pkl\n")
@@ -46,7 +49,7 @@ for category, count in sorted(counts.items()):
     print(f"  {category:>12} : {count} chunks")
 
 # Save for next step
-with open("chunks.pkl", "wb") as f:
+with open(CACHE_DIR / "chunks.pkl", "wb") as f:
     pickle.dump(chunks, f)
 
 print("\nSaved: chunks.pkl")

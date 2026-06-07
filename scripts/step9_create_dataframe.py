@@ -26,16 +26,19 @@ Run:
 """
 
 import pickle
+from pathlib import Path
+PROJECT_ROOT = Path(__file__).parent.parent
+CACHE_DIR    = PROJECT_ROOT
 import re
 import numpy as np
 import pandas as pd
 from umap import UMAP
 
 # ── Load chunks & embeddings ───────────────────────────────────────────────────
-with open("chunks.pkl", "rb") as f:
+with open(CACHE_DIR / "chunks.pkl", "rb") as f:
     chunks = pickle.load(f)
 
-with open("embeddings.pkl", "rb") as f:
+with open(CACHE_DIR / "embeddings.pkl", "rb") as f:
     embeddings = pickle.load(f)
 
 print(f"Chunks     : {len(chunks)}")
@@ -122,7 +125,7 @@ print("\nSample rows:")
 print(df[["doc_id", "category", "title", "word_count", "x", "y"]].head(8).to_string(index=False))
 
 # ── Save for next step ─────────────────────────────────────────────────────────
-with open("plot_df.pkl", "wb") as f:
+with open(CACHE_DIR / "plot_df.pkl", "wb") as f:
     pickle.dump(df, f)
 
 print("\n✅ DataFrame saved to plot_df.pkl")

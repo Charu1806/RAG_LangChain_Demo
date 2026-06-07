@@ -22,12 +22,15 @@ Run:
 """
 
 import pickle
+from pathlib import Path
+PROJECT_ROOT = Path(__file__).parent.parent
+CACHE_DIR    = PROJECT_ROOT
 import os
 from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import HuggingFaceEmbeddings
 
 # ── Load chunks ────────────────────────────────────────────────────────────────
-with open("chunks.pkl", "rb") as f:
+with open(CACHE_DIR / "chunks.pkl", "rb") as f:
     chunks = pickle.load(f)
 
 print(f"Loaded {len(chunks)} chunks\n")
@@ -43,7 +46,7 @@ embedding_fn = HuggingFaceEmbeddings(
 print("Embedding function ready.\n")
 
 # ── Build ChromaDB vector store ────────────────────────────────────────────────
-PERSIST_DIR = "./vector_db"
+PERSIST_DIR = str(PROJECT_ROOT / "vector_db")
 
 # Remove old DB if re-running, to avoid duplicate documents
 if os.path.exists(PERSIST_DIR):
