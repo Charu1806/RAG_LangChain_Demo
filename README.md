@@ -1,3 +1,21 @@
+## 📖 Featured Article
+
+This project started as teaching material for an AI & Product Management class and turned into a full write-up:
+
+**[RAG, Explained the Way I Wish Someone Had Explained It to Me](https://medium.com/@charugupta_28221/rag-explained-the-way-i-wish-someone-had-explained-it-to-me-d33eb34a2082)** — Medium
+
+Also shared on **[LinkedIn](https://www.linkedin.com/posts/charu-gupta-082a961b_rag-explained-the-way-i-wish-someone-had-share-7478746807892856832-zdyV/)**.
+
+**Reception so far:**
+
+| Medium (first month) | LinkedIn post |
+|---|---|
+| 789 views · 427 reads | 15,655 impressions · 8,372 members reached |
+| 50 presentations | 551 profile viewers |
+| +12 followers · +8 subscribers | +113 followers gained |
+
+---
+
 # RAG-Based Company Document Visualisation
 ### Built with LangChain · ChromaDB · UMAP · Plotly · Mistral AI
 
