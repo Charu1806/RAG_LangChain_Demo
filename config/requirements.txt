@@ -1,9 +1,9 @@
-langchain
-langchain-community
+langchain>=0.3,<0.4
+langchain-community>=0.3,<0.4
 langchain-mistralai
 langchain-huggingface
 langchain-chroma
-langchain-core
+langchain-core>=0.3,<0.4
 faiss-cpu
 sentence-transformers
 chromadb
