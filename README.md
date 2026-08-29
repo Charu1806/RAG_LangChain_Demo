@@ -217,7 +217,14 @@ python3 scripts/step13_rag_query.py
 ```
 
 ### Or use the Colab notebook
-Upload `Google Colab Notebook/rag_visualisation.ipynb` to [Google Colab](https://colab.research.google.com) and run all cells.
+
+If you want to play with the code in Google Colab:
+
+1. **Download the file** — [rag_visualisation.ipynb](https://github.com/Charu1806/RAG_LangChain_Demo/raw/main/Google%20Colab%20Notebook/rag_visualisation.ipynb)
+2. **Open Google Colab** — [colab.research.google.com](https://colab.research.google.com)
+3. **Open the file** — `File → Upload notebook`, then select the file you downloaded in step 1
+4. The code will be loaded
+5. Run it step by step, top to bottom
 
 ---
 
