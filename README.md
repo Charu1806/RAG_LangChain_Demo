@@ -131,7 +131,7 @@ RAG-Based-Company-Document-Visualisation/
 │
 ├── Google Colab Notebook/
 │   ├── rag_visualisation.ipynb             # Complete Colab notebook
-│   └── Copy_of_rag_visualisation.ipynb     # Colab notebook copy
+│   └── simplified_google_colab.ipynb       # Simplified Colab notebook
 │
 ├── config/
 │   ├── requirements.txt                    # All Python dependencies
