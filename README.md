@@ -129,8 +129,9 @@ RAG-Based-Company-Document-Visualisation/
 │   ├── step12_advanced_visualisation.py    # Full-text hover, filter, spotlight
 │   └── step13_rag_query.py                 # RAG: ChromaDB + Mistral AI
 │
-├── notebook/
-│   └── rag_visualisation.ipynb             # Complete Colab notebook
+├── Google Colab Notebook/
+│   ├── rag_visualisation.ipynb             # Complete Colab notebook
+│   └── Copy_of_rag_visualisation.ipynb     # Colab notebook copy
 │
 ├── config/
 │   ├── requirements.txt                    # All Python dependencies
@@ -216,7 +217,7 @@ python3 scripts/step13_rag_query.py
 ```
 
 ### Or use the Colab notebook
-Upload `rag_visualisation.ipynb` to [Google Colab](https://colab.research.google.com) and run all cells.
+Upload `Google Colab Notebook/rag_visualisation.ipynb` to [Google Colab](https://colab.research.google.com) and run all cells.
 
 ---
 
